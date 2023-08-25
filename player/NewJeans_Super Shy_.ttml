@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="28.0s" end="29.0s">어디? 어디?</p>
+      <p begin="29.0s" end="55.0s">우리가 진짜 가고 싶었던 곳!</p>
+      <p begin="55.0s" end="57.0s">I’m super shy, super shy</p>
+      <p begin="57.0s" end="58.0s">But wait a minute while I</p>
+      <p begin="58.0s" end="60.0s">Make you mine, make you mine</p>
+      <p begin="60.0s" end="61.0s">떨리는 지금도</p>
+      <p begin="61.0s" end="62.0s">You’re on my mind</p>
+      <p begin="62.0s" end="63.0s">All the time</p>
+      <p begin="63.0s" end="64.0s">I wanna tell you but I’m</p>
+      <p begin="64.0s" end="65.0s">Super shy, super shy</p>
+      <p begin="65.0s" end="67.0s">I’m super shy, super shy</p>
+      <p begin="67.0s" end="70.0s">But wait a minute while I</p>
+      <p begin="70.0s" end="71.0s">Make you mine, make you mine</p>
+      <p begin="71.0s" end="73.0s">떨리는 지금도</p>
+      <p begin="73.0s" end="74.0s">You’re on my mind</p>
+      <p begin="74.0s" end="75.0s">All the time</p>
+      <p begin="75.0s" end="76.0s">I wanna tell you but I’m</p>
+      <p begin="76.0s" end="77.0s">Super shy, super shy</p>
+      <p begin="77.0s" end="80.0s">And I wanna go out with you</p>
+      <p begin="80.0s" end="81.0s">Where you wanna go? (Huh?)</p>
+      <p begin="81.0s" end="82.0s">Find a lil spot</p>
+      <p begin="82.0s" end="83.0s">Just sit and talk</p>
+      <p begin="83.0s" end="84.0s">Looking pretty</p>
+      <p begin="84.0s" end="85.0s">Follow me</p>
+      <p begin="85.0s" end="86.0s">우리 둘이 나란히</p>
+      <p begin="86.0s" end="88.0s">보이지? (봐)</p>
+      <p begin="88.0s" end="89.0s">내 눈이 (heh)</p>
+      <p begin="89.0s" end="90.0s">갑자기</p>
+      <p begin="90.0s" end="91.0s">빛나지</p>
+      <p begin="91.0s" end="92.0s">When you say</p>
+      <p begin="92.0s" end="93.0s">I’m your dream</p>
+      <p begin="93.0s" end="95.0s">You don’t even know my name</p>
+      <p begin="95.0s" end="96.0s">Do ya?</p>
+      <p begin="96.0s" end="98.0s">You don’t even know my name</p>
+      <p begin="98.0s" end="99.0s">Do ya-a?</p>
+      <p begin="99.0s" end="101.0s">누구보다도</p>
+      <p begin="101.0s" end="103.0s">I’m super shy, super shy</p>
+      <p begin="103.0s" end="106.0s">But wait a minute while I</p>
+      <p begin="106.0s" end="107.0s">Make you mine, make you mine</p>
+      <p begin="107.0s" end="109.0s">떨리는 지금도</p>
+      <p begin="109.0s" end="110.0s">You’re on my mind</p>
+      <p begin="110.0s" end="111.0s">All the time</p>
+      <p begin="111.0s" end="112.0s">I wanna tell you but I’m</p>
+      <p begin="112.0s" end="113.0s">Super shy, super shy</p>
+      <p begin="113.0s" end="115.0s">I’m super shy, super shy</p>
+      <p begin="115.0s" end="118.0s">But wait a minute while I</p>
+      <p begin="118.0s" end="119.0s">Make you mine, make you mine</p>
+      <p begin="119.0s" end="121.0s">떨리는 지금도</p>
+      <p begin="121.0s" end="122.0s">You’re on my mind</p>
+      <p begin="122.0s" end="123.0s">All the time</p>
+      <p begin="123.0s" end="124.0s">I wanna tell you but I’m</p>
+      <p begin="124.0s" end="125.0s">Super shy, super shy</p>
+      <p begin="125.0s" end="127.0s">You don’t even know my name</p>
+      <p begin="127.0s" end="128.0s">Do ya?</p>
+      <p begin="128.0s" end="130.0s">You don’t even know my name</p>
+      <p begin="130.0s" end="131.0s">Do ya-a?</p>
+      <p begin="131.0s" end="133.0s">누구보다도</p>
+      <p begin="133.0s" end="135.0s">You don’t even know my name</p>
+      <p begin="135.0s" end="136.0s">Do ya?</p>
+      <p begin="136.0s" end="138.0s">You don’t even know my name</p>
+      <p begin="138.0s" end="139.0s">Do ya-a?</p>
+    </div>
+  </body>
+</tt>

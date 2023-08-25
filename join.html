@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="./join.css">
+
+    <!-- alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <a href="./main.html" class="main">EZEN MUSIC</a>
+        <a href="./login.html" class="login">로그인</a>
+    </div>
+    <div class="container">
+        <p>회원가입</p>
+        <div class="join">
+            <form action="">
+                <input type="text" class="name" name="name" id="name" placeholder="이름 " autofocus="true" required onchange="getName()">
+                <input type="text" class="id" name="id" id="id" placeholder="아이디" required>
+                <input type="password" class="pw" name="pw" id="pw" placeholder="비밀번호 (문자, 숫자, 특수문자 8~20)" required onchange="getPW()">
+                <div id="login-box-btn">
+                    <span class="material-symbols-outlined" id="showPasswordBtn" onclick="showPassword()">visibility_off</span>
+                    <!-- <button type="button" id="showPasswordBtn" onclick="showPassword()">비밀번호 보이기</button> -->
+                </div>
+            </form>
+        </div>
+        <div class="agree">
+            <input type="checkbox" name="agree" id="all" onclick="selectAll(this)">
+            <label for="all">전체 약관에 동의합니다.</label><br>
+            <input type="checkbox" name="agree" id="age">
+            <label for="age">만 14세 이상입니다.</label><br>
+            <input type="checkbox" name="agree" id="service">
+            <label for="service">서비스 이용약관에 동의합니다.</label><br>
+            <input type="checkbox" name="agree" id="personal">
+            <label for="personal">개인정보 수집 및 이용에 동의합니다.</label><br>
+            <input type="checkbox" name="agree" id="event">
+            <label for="event">이벤트 정보 수신에 동의합니다.(선택)</label><br>
+        </div>
+        <button class="btn" onclick="passwordCheck()">계정 생성하기</button>
+    </div>
+
+    <div class="footer">
+        <p>고객센터(이용 및 결제 문의)  cs@ezen.co.kr • 032-123-4567 (유료)</p>
+        <p>주식회사 이젠뮤직 / 대표 강서연 / 인천광역시 남동구 인주대로 593 엔타스빌딩 12층 / 사업자등록번호 123-45-67890 / 통신판매업 신고번호 제 2023-인천남초-1004호 / </p>
+        <p>호스팅 서비스 제공자 아마존웹서비시즈코리아 유한회사 / 대표번호 02-123-4567 / 이용약관 / 개인정보 처리 방침 / 청소년 보호정책</p>
+    </div>
+
+    <script src="./join.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="20.0s" xml:id="p0" end="25.0s">나리는 꽃가루에 눈이 따끔해 (아야)</p>
+      <p begin="25.0s" xml:id="p1" end="28.0s">눈물이 고여도 꾹 참을래</p>
+      <p begin="28.0s" xml:id="p2" end="34.0s">내 마음 한켠 비밀스런 오르골에 넣어두고서</p>
+      <p begin="34.0s" xml:id="p3" end="38.0s">영원히 되감을 순간이니까</p>
+      <p begin="38.0s" xml:id="p4" end="46.0s">영원히 되감을 순간이니까</p>
+      <p begin="46.0s" xml:id="p5" end="52.0s">어느 작별이 이보다 완벽할까</p>
+      <p begin="52.0s" xml:id="p6" end="54.0s">Love me only till this spring</p>
+      <p begin="54.0s" xml:id="p7" end="58.0s">오 라일락 꽃이 지는 날 goodbye</p>
+      <p begin="58.0s" xml:id="p8" end="60.0s">이런 결말이 어울려</p>
+      <p begin="60.0s" xml:id="p9" end="62.0s">안녕 꽃잎 같은 안녕</p>
+      <p begin="62.0s" xml:id="p10" end="66.0s">하얀 우리 봄날의 climax</p>
+      <p begin="66.0s" xml:id="p11" end="71.0s">아 얼마나 기쁜 일이야</p>
+      <p begin="71.0s" xml:id="p12" end="75.0s">Ooh ooh</p>
+      <p begin="75.0s" xml:id="p13" end="77.0s">Love me only till this spring</p>
+      <p begin="77.0s" xml:id="p14" end="80.0s">봄바람처럼</p>
+      <p begin="80.0s" xml:id="p15" end="83.0s">Ooh ooh</p>
+      <p begin="83.0s" xml:id="p16" end="85.0s">Love me only till this spring</p>
+      <p begin="85.0s" xml:id="p17" end="89.0s">봄바람처럼</p>
+      <p begin="89.0s" xml:id="p18" end="93.0s">기분이 달아 콧노래 부르네 (랄라)</p>
+      <p begin="93.0s" xml:id="p19" end="97.0s">입꼬리는 살짝 올린 채</p>
+      <p begin="97.0s" xml:id="p20" end="103.0s">어쩜 이렇게 하늘은 더 바람은 또 완벽한 건지</p>
+      <p begin="103.0s" xml:id="p21" end="106.0s">오늘따라 내 모습 맘에 들어</p>
+      <p begin="106.0s" xml:id="p22" end="115.0s">처음 만난 그날처럼 예쁘다고 말해줄래</p>
+      <p begin="115.0s" xml:id="p23" end="121.0s">어느 이별이 이토록 달콤할까</p>
+      <p begin="121.0s" xml:id="p24" end="123.0s">Love resembles misty dream</p>
+      <p begin="123.0s" xml:id="p25" end="127.0s">어느 이별이 이토록 달콤할까</p>
+      <p begin="127.0s" xml:id="p26" end="129.0s">이런 결말이 어울려</p>
+      <p begin="129.0s" xml:id="p27" end="131.0s">안녕 꽃잎 같은 안녕</p>
+      <p begin="131.0s" xml:id="p28" end="135.0s">하얀 우리 봄날의 climax</p>
+      <p begin="135.0s" xml:id="p29" end="140.0s">하얀 우리 봄날의 climax</p>
+      <p begin="140.0s" xml:id="p30" end="144.0s">Ooh ooh</p>
+      <p begin="144.0s" xml:id="p31" end="146.0s">Love resembles misty dream</p>
+      <p begin="146.0s" xml:id="p32" end="149.0s">뜬구름처럼</p>
+      <p begin="149.0s" xml:id="p33" end="152.0s">Ooh ooh</p>
+      <p begin="152.0s" xml:id="p34" end="154.0s">Love resembles misty dream</p>
+      <p begin="154.0s" xml:id="p35" end="158.0s">뜬구름처럼</p>
+      <p begin="158.0s" xml:id="p36" end="162.0s">너도 언젠가 날 잊게 될까</p>
+      <p begin="162.0s" xml:id="p37" end="166.0s">지금 표정과 오늘의 향기도</p>
+      <p begin="166.0s" xml:id="p38" end="169.0s">단잠 사이에 스쳐간</p>
+      <p begin="169.0s" xml:id="p39" end="173.0s">봄날의 꿈처럼</p>
+      <p begin="173.0s" xml:id="p40" end="177.0s">오 라일락 꽃이 지는 날 goodbye</p>
+      <p begin="177.0s" xml:id="p41" end="179.0s">너의 대답이 날 울려</p>
+      <p begin="179.0s" xml:id="p42" end="181.0s">안녕 약속 같은 안녕</p>
+      <p begin="181.0s" xml:id="p43" end="185.0s">안녕 약속 같은 안녕</p>
+      <p begin="185.0s" xml:id="p44" end="190.0s">아 얼마나 기쁜 일이야</p>
+      <p begin="190.0s" xml:id="p45" end="194.0s">Ooh ooh</p>
+      <p begin="194.0s" xml:id="p46" end="196.0s">Love me only untill this spring</p>
+      <p begin="196.0s" xml:id="p47" end="199.0s">봄바람처럼</p>
+      <p begin="199.0s" xml:id="p48" end="202.0s">Ooh ooh</p>
+      <p begin="202.0s" xml:id="p49" end="204.0s">Love me only untill this spring</p>
+      <p begin="204.0s" xml:id="p50" end="207.0s">봄바람처럼</p>
+      <p begin="207.0s" xml:id="p51" end="210.0s">Ooh ooh</p>
+      <p begin="210.0s" xml:id="p52" end="213.0s">Love resembles misty dream</p>
+      <p begin="213.0s" xml:id="p53" end="215.0s">뜬구름처럼</p>
+      <p begin="215.0s" xml:id="p54" end="219.0s">Ooh ooh</p>
+      <p begin="219.0s" xml:id="p55" end="221.0s">Love resembles misty dream</p>
+      <p begin="221.0s" xml:id="p56" end="222.0s">뜬구름처럼</p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./image/산.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: 'GongGothicMedium';
+    margin: 0;
+}
+.swal2-shown{
+    color: white;
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(.image/산.jpg); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: 'GongGothicMedium';
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header>.main{
+    display: block;
+    margin: 15px 0 0 40px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(245, 30, 102), rgb(179, 99, 253));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration-line: none;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 제목에 대한 css*/
+#title1, #title2 {
+    /* position: absolute; */
+    /* top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#title1{
+    opacity: 1;
+    animation: p_title1 3s ease-in-out;
+}
+#title2 {
+    display: none;
+    opacity: 0;
+    animation: p_title2 3s forwards ease-in-out;
+}
+
+@keyframes p_title1 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes  p_title2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* 로그인 폼 */
+#login-box {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.sub2{
+    margin-left: 240px;
+}
+/* 다른 스타일 속성들 */
+
+#login-box-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.join{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    /* font-weight: 700; */
+    background-color: rgba(255, 104, 199, 0.74);
+    color: rgba(255, 255, 255, 0.858);
+    text-align: center;
+    margin: 15px 20px 0px 0px;
+    line-height: 40px;
+    text-decoration-line: none;
+}
+.join:hover{
+    background-color: rgba(206, 50, 149, 0.74);
+}
+
+button{
+    outline: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 104, 199, 0.74);
+    color: rgba(255, 255, 255, 0.858);
+    /* font-weight: 700; */
+    font-family: 'GongGothicMedium';
+}
+button:hover{
+    background-color: rgba(206, 50, 149, 0.74);
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    color: rgba(104, 104, 104, 0.479);
+    cursor: pointer;
+}
+input{
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'GongGothicMedium';
+}
+.input1{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    border-radius: 5px 5px 0px 0px;
+}
+.input2{
+    border-radius: 0px 0px 5px 5px;
+}
+#id_u,#password_u{
+ 
+    width: 300px;
+    height: 50px;
+
+}
+
+
+/* input:focus {
+    font-weight: 700;
+    background-color: rgba(119, 114, 114, 0.725);
+}  */
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+.footer p{
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#login_btn{
+    margin-top: 30px;
+    margin-left: 5px;
+}

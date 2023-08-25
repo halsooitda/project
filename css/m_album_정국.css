@@ -1,0 +1,651 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 전체에 주는 값 */
+body{
+    font-family: 'GongGothicMedium';
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.screen{
+    width: 100%;
+}
+/* navbar */
+.nav{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    padding: 10px 10px 0 20px;
+    border-right: 1px solid rgba(143, 143, 143, 0.527);
+    background-color: black;
+    z-index: 20;
+}
+.nav>.box{
+    height: 10px;
+}
+.nav>.logo{
+    font-size: 30px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(245, 30, 102), rgb(179, 99, 253));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.nav>.login{
+    display: flex;
+    text-align: center;
+    /* 아이콘 정렬 */
+    border-top: 1px solid rgba(143, 143, 143, 0.527);
+    border-bottom: 1px solid rgba(143, 143, 143, 0.527);
+    padding: 15px 0;
+    margin-top: 10px;
+}
+.nav>.login>a{
+    /* font-weight: 700; */
+    margin-left: 5px;
+    
+}
+.nav>.login>.material-symbols-outlined{
+    margin-left: 10px;
+}
+.nav .material-symbols-outlined{
+    color: rgba(255, 255, 255, 0.616);
+}
+.nav>.member{
+    width: 185px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, rgb(255, 0, 85), rgb(139, 30, 240));
+    background-clip: background;
+    -webkit-background-clip: background;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'GongGothicMedium';
+}
+.nav>.search{
+    margin-top: 20px;
+    width: 173px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(27, 27, 27, 0.753);
+    /* font-weight: 700; */
+    font-size: 15px;
+    color: white;
+    font-family: 'GongGothicMedium';
+}
+.menu-box li, .menu-box2 li{
+    margin-left: 5px;
+    padding: 20px 0 10px 0;
+    display: flex;
+    text-align: center;
+}
+.menu-box li:last-child{
+    margin-bottom: 20px;
+}
+.menu-box>li>.home, .menu-box>li>.home{
+    color: rgb(255, 44, 115);
+}
+.qna{
+    margin-top: 8px;
+}
+.nav a{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.671);
+}
+.nav a:not(.home):not(.logo):hover{
+    color: white;
+}
+.menu-box>li>.home:hover{
+    color: rgba(255, 30, 105, 0.774);
+}
+.nav>.menu-box{
+    border-bottom: 1px solid rgba(143, 143, 143, 0.527);
+}
+.menu{
+    padding-left: 8px;
+}
+/* ---------------------------------------------------------------- */
+.main{
+    width: calc(100% - 300px);
+    /* border: 1px solid rgb(255, 255, 255); */
+    float: right;
+}
+
+/* top10 */
+.main>.tnm{
+    width: 1470px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .title{
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    padding: 60px 0 10px 40px;
+    font-size: 25px;
+    /* font-weight: 700; */
+    color: white;
+}
+.main>.tnm>.more{
+    color: white;
+    margin-top: 80px;
+    /* margin-right: 50px; */
+}
+.main>.top10{
+    width: 1470px;
+    height: 420px;
+    /* background-color: aquamarine; */
+    /* margin-top: 40px; */
+    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+.main>.top10 a{
+    width: 450px;
+    /* margin: 10px 20px; */
+    margin: 10px 20px 10px 0;
+    display: flex;
+    
+}
+.main>.top10 .first{
+    padding-top: 10px;
+}
+.main>.top10 a:not(.last){
+    border-bottom: 1px solid rgba(143, 143, 143, 0.527);
+}
+.main>.top10 a img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+/* .products a p{
+    display: none;
+}
+.products a:hover p{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    color: rgb(182, 93, 110);
+    font-weight: 600;
+    font-size: 30px;
+} */
+.main>.top10 a .material-symbols-outlined {
+    display: none;
+}
+.main>.top10 a:hover .material-symbols-outlined{
+    display: block;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    font-variation-settings:'FILL' 10;
+    background-color: rgba(0, 0, 0, 0.584);
+    line-height: 50px;
+    color: #ffffffeb;
+    font-size: 25px;
+    margin: 0;
+}
+.main>.top10 a span{
+    margin: 0 5px 0 17px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.main>.top10 a ul li{
+    padding: 0;
+    margin: 0 15px;
+    font-size: 15px;
+}
+.main>.top10 a ul li:nth-child(1){
+    color: white;
+    margin-bottom: 5px;
+}
+.main>.top10 a ul li:nth-child(2){
+    color: rgba(107, 107, 107, 0.795);
+}
+.main>.top10 a ul li:hover{
+    text-decoration: underline;
+}
+
+/* tag 음악 추천 */
+.main>.tag{
+    width: 1470px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 0px 0 40px 35px;
+}
+/* ---------------------------------------------------------- */
+.footer{
+    width: calc(100% - 230px);
+    height: 200px;
+    background-color: #111111;
+    float: right;
+    margin-bottom: 100px;
+}
+/* ------------------------------------------------------------- */
+/* 슬라이드 */
+.sImgBox a {
+    text-decoration: none;
+    color: inherit; /* 부모 요소를 상속 한다는 의미 */
+}
+/* slide */
+.slide {
+    position: relative;
+    width: 1470px;
+    height: 330px;
+    min-width: 1240px;
+    z-index: 10;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+/* 사진 영역 */
+.sImgBox a img{
+    position: absolute;
+    width: 1470px;
+    height: 330px;
+    left: 225px;
+}
+.sImg {
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+}
+.sImgBox {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+.sImgBox a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+/* pager btn */
+.sPager {
+    /* margin-top: 50px; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    translate: -50%;
+}
+.sPager ul {
+    display: flex;
+    justify-content: center;
+}
+.sPager li {
+    padding: 0;
+    width: 20px;
+    height: 5px;
+    margin: 0 20px;
+    background-color: #cacaca;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+.sPager .active {
+    background-color: rgb(255, 92, 92);
+}
+/* 좌우 버튼 */
+.sPrev,
+.sNext {
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    height: 20px;
+    border-top: 6px solid #ffffff;
+    border-left: 6px solid #ffffff;
+    cursor: pointer;
+}
+.sPrev {
+    left: 100px;
+    transform: rotate(-45deg);
+}
+.sNext {
+    right: 100px;
+    transform: rotate(135deg);
+}
+.sPrev span,
+.sNext span {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+
+
+/* ALBUM */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 150px;
+} */
+
+#total {
+    position: relative;
+    width: 70%;
+    height: 65%;
+    overflow: hidden;
+    margin: 0 auto;
+    font-weight: 300;
+    
+}
+
+#video-background {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+#play_button,#add {
+    border: 1px solid white;
+    outline: none;
+    background-color: black;
+    border-radius: 3px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    font-family: 'GongGothicMedium';
+}
+
+#play_button:hover,#add:hover {
+    background-color: white;
+    color: black;
+}
+
+#comment {
+    border: 1px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#explanation, #container, #album_p {
+    opacity: 0;
+    animation: explanation 7s forwards ease-in-out;
+}
+
+@keyframes explanation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#comment {
+    margin-top: 0px;
+    line-height: 2em; 
+}
+
+#album_p {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#listen_album {
+    margin-left: 30px;
+    height: 300px;
+    width: 60%;
+}
+
+#listen_album_title {
+    top: 0px;
+    font-size: 40px;
+    font-weight: 400;
+
+background: linear-gradient(to top, rgb(255, 0, 85), rgb(139, 30, 240));
+color: transparent;
+-webkit-background-clip: text;
+
+
+
+}
+
+#album_picture {
+    background-image: url(../img/정국.jpg);
+    box-shadow: 1px 1px 6px 1px rgb(200, 200, 200);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+h3{
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+
+h1 {
+    margin-top: 50px;
+    font-size: 40px;
+
+
+font-weight: 400;
+
+
+font-size: 57px;
+background: linear-gradient(to right, rgb(255, 0, 85), rgb(139, 30, 240));
+color: transparent;
+-webkit-background-clip: text;
+
+height: 55px;
+
+}
+
+
+#listen_album ul {
+    margin-top: 30px;
+    padding: 0;
+    padding-left: 20px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 300;
+}
+
+#play_button_box {
+    height: 60px;
+    float: right;
+    margin-right: 8px;
+}
+
+#play_button {
+    font-size: 14px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+#listen_album ul li {
+    height: 60px;
+    line-height: 60px;
+    font-weight: 300;
+
+}
+
+#listen_album ul li:hover {
+    background-color: rgba(42, 39, 39, 0.737);
+}
+
+#commentList {
+ 
+    padding: 0;
+    margin-left: 68px;
+    height: auto;
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -20px;
+
+}
+
+#commentList>li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 20px;
+    text-align: left;
+    height: 50px;
+    font-weight: 100;
+    width: 93%;
+
+}
+
+
+#list_css {
+    height: 50px;
+}
+
+#commentList>li:hover {
+    background-color: rgba(42, 39, 39, 0.737);
+}
+
+#commentList_other>li:hover {
+    background-color: rgba(42, 39, 39, 0.737);
+}
+
+#commentList_other {
+ 
+    padding: 0;
+    margin-left: 68px;
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+
+    
+}
+
+/* span{
+    width: 60px;
+    height: 30px;
+} */
+
+#commentList_other>li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    height: 50px;
+    width: 93%;
+}
+
+
+
+
+.close {
+    width: 60px;
+    text-align: center;
+    height: 35px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#add {
+    position: absolute;
+    top: 0; 
+    right: 7%; 
+    margin-top: 90px; 
+
+    font-size: 200%;
+    width: 60px;
+    right: 7%; 
+
+    
+}
+
+
+
+    #close_k {
+        border: 1px solid white;
+        outline: none;
+        background-color: black;
+        border-radius: 3px;
+
+        color: white;
+        cursor: pointer;
+        padding: 2px 2px 2px 2px;
+    }
+    
+    #close_k:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    
+
+#container{
+    width: 80%;
+    position: relative;
+}
+
+#commentList_btn_box{
+    border: 1px solid white;
+    outline: none;
+    background-color: black;
+    border-radius: 3px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+#commentList_btn_box:hover{
+    background-color: white;
+    color: black;
+}
+
+#h1_2{
+    margin-top: 0px;
+    color:RGB(205,147,239) ;
+}
+
+
+/*h1 재목 글꼴 */
+

@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin: 0;
+	/* background: linear-gradient(150deg, #42165f, #b12c5d); */
+    background-color: rgb(34, 34, 34);
+    /* background-color: black; */
+    /* font-family: 'Noto Sans KR', sans-serif; */
+	/* font-weight: 100; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    font-family: 'GongGothicMedium';
+    position: absolute;
+    left: 0;
+    margin: 15px 0 0 40px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(245, 30, 102), rgb(179, 99, 253));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+    font-family: 'GongGothicMedium';
+    /* font-family: 'Noto Sans KR', sans-serif; */
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+    font-weight: 100;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.085);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+table{
+    border-color: rgb(240, 248, 255, 0.4);
+    width: 1000px;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+td{
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+    padding: 0px;
+}
+
+tr {
+    height: 50px;
+}
+
+textarea {
+    width: 500px;
+    height: 300px;
+    padding: 10px 0 0 10px;
+    font-family: 'GongGothicMedium';
+    margin-left: 5px;
+}
+p{
+   margin: 0px;
+   line-height: 37px;
+}
+#email{
+    line-height: 67px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 0;
+    /* width: 500px; */
+    /* margin-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* right: 50%; */
+    /* translate: -10%; */
+    /* margin-right: 30px; */
+    /* bottom: -60px; */
+}
+h1{
+    font-family: 'GongGothicMedium';
+    font-size: 40px;
+    font-weight: 100;
+}
+input, textarea, select{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+input, select{
+    margin-left: 5px;
+    height: 30px;
+    padding: 5px;
+}
+input[type="text"]{
+    padding-left: 10px;
+    font-family: 'GongGothicMedium';
+}
+.title{
+    font-size: 23px;
+}
+button{
+    /* font-family: 'GongGothicMedium'; */
+    padding: 10px;
+    /* font-weight: bold; */
+    /* color: white; */
+    /* background-color: rgba(0, 0, 0, 0.349); */
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+    /* outline: none; */
+}
+#btn {
+    font-family: 'GongGothicMedium';
+    background: rgba(0, 0, 0, 0.301);
+    color: #fff;
+    /* z-index: 1; */
+ }
+ /* #btn:after {
+   position: absolute;
+   content: "";
+   width: 0;
+   height: 100%;
+   top: 0;
+   right: 0;
+   z-index: -1;
+    background: #e0e5ec;
+    border-radius: 10px;
+   transition: all 0.3s ease;
+ } */
+ #btn:hover {
+   background-color: rgb(83, 83, 83)
+ }
+ /* #btn:hover:after {
+   left: 0;
+   width: 100%;
+ }
+ #btn:active {
+   top: 2px;
+ } */
+  .custom-btn1, .custom-btn2 {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+ .last{
+    /* padding-bottom: 20px; */
+  }
+
+  select{
+    font-family: 'GongGothicMedium';
+    font-size: 15px;
+  }
+
+  input[type="file"]{
+    font-family: 'GongGothicMedium';
+    font-weight: 100; 
+    font-size: 15px;
+    border: none;
+  }
+
+  .cb{
+    vertical-align: middle;
+  }

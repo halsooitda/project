@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./chatbot.css">
+  <script src="./chatbot.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="chatbot">
+    <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn" />
+    <label for="modal-btn" class="btn-6"><span>문의봇</span></label>
+    <label class="close"></label>
+    <div class="modal">
+      <div class="modal-wrap" style="overflow: auto">
+        <div class="header">문의사항</div>
+        <p><img src="./images/봇.JPG" alt="" class="chatImg">무엇을 도와드릴까요?</p>
+        <div class="answer1" id="answer">자주 찾는 질문</div>
+        <div class="answer2" id="answer">이메일로 문의하기</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    clickAnswer();
+  </script>
+</body>
+
+</html>

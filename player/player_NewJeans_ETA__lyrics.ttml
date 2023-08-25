@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="8.0s" xml:id="p0" end="11.0s">낭비하지 마 네 시간은 은행</p>
+      <p begin="11.0s" xml:id="p1" end="15.0s">서둘러서 정리해 걔는 real bad</p>
+      <p begin="15.0s" xml:id="p2" end="17.0s">받아주면 안돼</p>
+      <p begin="17.0s" xml:id="p3" end="18.0s">No you better trust me</p>
+      <p begin="18.0s" xml:id="p4" end="22.0s">답답해서 그래</p>
+      <p begin="22.0s" xml:id="p5" end="26.0s">저번에도 봤지만 너 없을 때</p>
+      <p begin="26.0s" xml:id="p6" end="29.0s">걘 여기저기에 눈빛을 뿌리네</p>
+      <p begin="29.0s" xml:id="p7" end="31.0s">아주 눈부시게</p>
+      <p begin="31.0s" xml:id="p8" end="33.0s">Honestly 우리 사이에</p>
+      <p begin="33.0s" xml:id="p9" end="36.0s">He’s been totally lying yeah</p>
+      <p begin="36.0s" xml:id="p10" end="38.0s">내 생일 파티에 너만 못 온 그날</p>
+      <p begin="38.0s" xml:id="p11" end="40.0s">혜진이가 엄청 혼났던 그날</p>
+      <p begin="40.0s" xml:id="p12" end="42.0s">지원이가 여친이랑 헤어진 그날</p>
+      <p begin="42.0s" xml:id="p13" end="43.0s">걔는 언제나 네가 없이 그날</p>
+      <p begin="43.0s" xml:id="p14" end="47.0s">너무 멋있는 옷을 입고 그날</p>
+      <p begin="47.0s" xml:id="p15" end="49.0s">Heard him say</p>
+      <p begin="49.0s" xml:id="p16" end="53.0s">We can go wherever you like</p>
+      <p begin="53.0s" xml:id="p17" end="56.0s">Baby say the words and I’m down</p>
+      <p begin="56.0s" xml:id="p18" end="60.0s">All I need is you on my side</p>
+      <p begin="60.0s" xml:id="p19" end="62.0s">We can go whenever you like</p>
+      <p begin="62.0s" xml:id="p20" end="64.0s">Now where are you?</p>
+      <p begin="64.0s" xml:id="p21" end="65.0s">Mmhmm</p>
+      <p begin="65.0s" xml:id="p22" end="68.0s">What’s your ETA, what’s your ETA</p>
+      <p begin="68.0s" xml:id="p23" end="69.0s">Mmhmm</p>
+      <p begin="69.0s" xml:id="p24" end="71.0s">What’s your ETA, what’s your ETA</p>
+      <p begin="71.0s" xml:id="p25" end="72.0s">Mmhmm</p>
+      <p begin="72.0s" xml:id="p26" end="75.0s">What’s your ETA, what’s your ETA</p>
+      <p begin="75.0s" xml:id="p27" end="79.0s">I’ll be there right now lose that boy on her arm</p>
+      <p begin="79.0s" xml:id="p28" end="82.0s">아파 맘이 네가 걔 못 잊을 때</p>
+      <p begin="82.0s" xml:id="p29" end="86.0s">내 말 믿어 you deserve better than that</p>
+      <p begin="86.0s" xml:id="p30" end="88.0s">내가 도와줄게</p>
+      <p begin="88.0s" xml:id="p31" end="89.0s">걔는 그냥 playin’</p>
+      <p begin="89.0s" xml:id="p32" end="93.0s">Boys be always lying yeah</p>
+      <p begin="93.0s" xml:id="p33" end="95.0s">내 생일 파티에 너만 못 온 그날</p>
+      <p begin="95.0s" xml:id="p34" end="97.0s">혜진이가 엄청 혼났던 그날</p>
+      <p begin="97.0s" xml:id="p35" end="99.0s">지원이가 여친이랑 헤어진 그날</p>
+      <p begin="99.0s" xml:id="p36" end="100.0s">걔는 언제나 네가 없이 그날</p>
+      <p begin="100.0s" xml:id="p37" end="104.0s">너무 멋있는 옷을 입고 그날</p>
+      <p begin="104.0s" xml:id="p38" end="106.0s">Heard him say</p>
+      <p begin="106.0s" xml:id="p39" end="110.0s">We can go wherever you like</p>
+      <p begin="110.0s" xml:id="p40" end="114.0s">Baby say the words and I’m down</p>
+      <p begin="114.0s" xml:id="p41" end="117.0s">All I need is you on my side</p>
+      <p begin="117.0s" xml:id="p42" end="119.0s">We can go wherever you like</p>
+      <p begin="119.0s" xml:id="p43" end="121.0s">Now where are you?</p>
+      <p begin="121.0s" xml:id="p44" end="122.0s">Mmhmm</p>
+      <p begin="122.0s" xml:id="p45" end="125.0s">What’s your ETA, what’s your ETA</p>
+      <p begin="125.0s" xml:id="p46" end="128.0s">Mmhmm</p>
+      <p begin="128.0s" xml:id="p47" end="130.0s">What’s your ETA, what’s your ETA</p>
+      <p begin="130.0s" xml:id="p48" end="131.0s">Mmhmm</p>
+      <p begin="131.0s" xml:id="p49" end="134.0s">What’s your ETA, what’s your ETA</p>
+      <p begin="134.0s" xml:id="p50" end="138.0s">I’ll be there right now lose that boy on her arm</p>
+      <p begin="138.0s" xml:id="p51" end="142.0s">Need a boy on my arm</p>
+      <p begin="142.0s" xml:id="p52" end="146.0s">Need a boy on my arm</p>
+      <p begin="146.0s" xml:id="p53" end="150.0s">Want a boy on my arm</p>
+      <p begin="150.0s" xml:id="p54" end="151.0s">Need a boy on my arm</p>
+    </div>
+  </body>
+</tt>

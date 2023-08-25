@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>membership</title>
+        <link rel="stylesheet" href="../reset.css" />
+        <link rel="stylesheet" href="../membership/membership.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <!-- <link rel="stylesheet" href="../main.css" /> -->
+
+        <link rel="stylesheet" href="..음악.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        
+        <body>
+            <!-- 기본화면 -->
+            <div class="screen">
+                <!-- navbar -->
+                <div class="nav">
+                    <div class="box"></div>
+                    <a href="../main.html" class="logo">EZEN MUSIC</a><br />
+                    <div class="login">
+                        <span class="material-symbols-outlined"
+                            >account_circle</span
+                        >
+                        <a href="../login.html">로그인</a>
+                    </div>
+                    <br />
+                    <button class="member" onclick="">멤버십</button><br/>
+                    <input type="text" class="search" placeholder="MUSIC 검색" />
+                    <ul class="menu-box">
+                        <li>
+                            <span class="material-symbols-outlined">home</span>
+                            <a href="../main.html" class="menu">HOME</a>
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">trophy</span>
+                            <a href="../탑100.html" class="menu">TOP100</a>
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">album</span>
+                            <a href="../DJ.html" class="menu">DJ추천</a>
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">library_music</span>
+                            <a href="" class="menu">최신앨범</a>
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">newsmode</span>
+                            <a href="../매거진.html" class="menu">매거진</a>
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">favorite</span>
+                            <a href="" class="menu">보관함</a>
+                        </li>
+                    </ul>
+                    <ul class="menu-box2">
+                        <li class="qna"><a href="../문의사항.html">문의게시판</a></li>
+                        <li><a href="">이벤트</a></li>
+                        <li><a href="">공지사항</a></li>
+                    </ul>
+                </div>
+                <!-- 전체 페이지 2분할 - 멤버십메뉴 -->
+                <div class="membership_menu">
+                    <button onclick="main()">멤버십 구독</button>
+                    <button onclick="sub()">My 멤버십</button>
+                    <button>내 감상량</button>
+                    <button>기프트 카드</button>
+                </div>
+    
+                <!-- 전체 페이지 2분할 -세부선택메뉴 2 -->
+                <div class="content_container">
+                    <!-- 세부카테고리 -->
+                    <div class="tap_list">
+                        <a href="" class="tap_item">추천 멤버십</a>
+                        <a href="" class="tap_item">이젠아카데미 혜택</a>
+                        <a href="" class="tap_item">전체 멤버십</a>
+                    </div>
+                    <!-- 멤버십 종류 -->
+                    <div class="membership_list">
+                        <div class="item_pc">
+                            <div class="link_lap">
+                                <div class="item_inner">
+                                    <span>모바일 무제한 듣기</span>
+                                    <strong>추천</strong>
+                                    <strong>Event</strong>
+                                    <!-- 클릭 시 팝업으로 해당 멤버십 소개 -->
+                                    <a href="#" id="popup_btn"
+                                        ><i
+                                            class="bi bi-exclamation-circle-fill"
+                                        ></i
+                                    ></a>
+                                    <div class="popup">
+                                        <span class="blind" id="exit_pop"
+                                            ><i class="bi bi-x-lg"></i
+                                        ></span>
+                                        <h4>모바일 무제한 듣기 첫 구독 할인</h4>
+                                        <span
+                                            ><strong>월 3,500원</strong>(부가세 포함
+                                            월 3,850원)</span
+                                        >
+                                        <div class="badge">
+                                            <span>2개월 50% 할인모바일 </span>
+                                            <span
+                                                ><i class="bi bi-infinity"></i
+                                                >모바일기기 무제한 듣기</span
+                                            >
+                                        </div>
+                                        <div class="benefit_list">
+                                            <ul>
+                                                <li class="item_benefit">
+                                                    <span>1회~2회</span>
+                                                    <span>50%할인</span>
+                                                    <span>3,500원</span>
+                                                    <span>부가세 포함 3,850원</span>
+                                                </li>
+                                                <li class="item_benefit">
+                                                    <span>3회~</span>
+                                                    <span>매월 정상가</span>
+                                                    <span>7,000원</span>
+                                                    <span>부가세 포함 7,700원</span>
+                                                </li>
+                                                <li class="item_benefit"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="info_list">
+                                            <ul>
+                                                <li>
+                                                    <i
+                                                        class="bi bi-check-circle-fill"
+                                                    ></i>
+                                                    모바일 APP, 태블릿/아이패드에서
+                                                    재생 가능
+                                                </li>
+                                                <li>
+                                                    <i
+                                                        class="bi bi-check-circle-fill"
+                                                    ></i>
+                                                    무제한 음악 듣기
+                                                </li>
+                                                <li>
+                                                    <i
+                                                        class="bi bi-check-circle-fill"
+                                                    ></i>
+                                                    최고음질(AAC 320K)
+                                                </li>
+                                                <li>
+                                                    <i
+                                                        class="bi bi-check-circle-fill"
+                                                    ></i>
+                                                    이퀼라이저(EQ) 지원
+                                                </li>
+                                                <li>
+                                                    <i
+                                                        class="bi bi-check-circle-fill"
+                                                    ></i>
+                                                    무제한 노래방 모드
+                                                </li>
+                                                <li>
+                                                    <i
+                                                        class="bi bi-check-circle-fill"
+                                                    ></i>
+                                                    MP3 구매시 100원 할인
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p>첫 구독 2개월 50% 할인</p>
+                                </div>
+                                <div class="item_price">
+                                    <span
+                                        ><p class="default_price">월7,000원</p>
+                                        월 3,500원</span
+                                    >
+                                    <span>부가세 포함 월 3,850원</span>
+                                </div>
+                            </div>
+                            <a href=""><button>구독하기</button></a>
+                        </div>
+                        <div class="item_pc">
+                            <div class="link_lap">
+                                <div class="item_inner">
+                                    <span>모바일 무제한 듣기 - 1년 약정</span>
+                                    <strong>추천</strong>
+                                    <a href="#"
+                                        ><i
+                                            class="bi bi-exclamation-circle-fill"
+                                        ></i
+                                    ></a>
+                                    
+
+                                    <p>매월 15% 할인</p>
+                                </div>
+                                <div class="item_price">
+                                    <span
+                                        ><p class="default_price">월7,000원</p>
+                                        월 5,950원</span
+                                    >
+                                    <span>부가세 포함 월 6,545원</span>
+                                </div>
+                            </div>
+                            <a href=""><button>구독하기</button></a>
+                        </div>
+                        <div class="item_pc">
+                            <div class="link_lap">
+                                <div class="item_inner">
+                                    <span>모바일 무제한 듣기 - 대학생</span>
+                                    <strong>추천</strong>
+                                    <a href=""
+                                        ><i
+                                            class="bi bi-exclamation-circle-fill"
+                                        ></i
+                                    ></a>
+                                    <p>4년 내내 18% 할인, 언제든지 해지 가능</p>
+                                </div>
+                                <div class="item_price">
+                                    <span
+                                        ><p class="default_price">월7,000원</p>
+                                        월 5,740원</span
+                                    >
+                                    <span>부가세 포함 월 6,314원</span>
+                                </div>
+                            </div>
+                            <a href=""><button>구독하기</button></a>
+                        </div>
+                        <div class="item_pc">
+                            <div class="link_lap">
+                                <div class="item_inner">
+                                    <span>무제한 듣기</span>
+                                    <strong>추천</strong>
+                                    <strong>Event</strong>
+                                    <a href=""
+                                        ><i
+                                            class="bi bi-exclamation-circle-fill"
+                                        ></i
+                                    ></a>
+                                    <p>첫 구독 2개월 50% 할인</p>
+                                </div>
+                                <div class="item_price">
+                                    <span
+                                        ><p class="default_price">월7,000원</p>
+                                        월 4,000원</span
+                                    >
+                                    <span>부가세 포함 월 4,400원</span>
+                                </div>
+                            </div>
+                            <a href=""><button>구독하기</button></a>
+                        </div>
+                    </div>
+                    <div class="notice">
+                        <h2>
+                            멤버십 구매 시 참고하세요. <button class="cancel">구독해지</button>
+                        </h2>
+    
+                        <ol>
+                            <li>
+                                <span
+                                    >애플 모바일 기기를 사용하신다면, 애플 정기구독
+                                    멤버십 보유 여부를 반드시 확인해 주세요.</span
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    >애플 정기구독 멤버십은 앱스토어 > 상단 아이콘
+                                    (계정) > 구독에서 확인 가능합니다.
+                                    <a
+                                        href="https://help.naver.com/service/20370/contents/20131?lang=ko"
+                                        >자세히 보기></a
+                                    ></span
+                                >
+                            </li>
+                            <li>
+                                <span>
+                                    여러 기기를 동시에 접속할 경우 최종 접속된 1개
+                                    기기에서만 무제한 음악 듣기가 가능합니다.</span
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    >부가세 포함 전 금액은 일의 자리에서 올림
+                                    처리하여 표시하였으며, 실제로 결제되는 금액은
+                                    부가세 포함 가격입니다.</span
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    >결제일 기준 7일 이내 이용내역이 없는 경우,
+                                    청약철회 신청 가능하며 전액 환불됩니다.</span
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    >결제일 기준 7일 이내 이용내역이 있는 경우,
+                                    결제금액에서 이용금액을 제외한 나머지 금액이
+                                    환불됩니다.</span
+                                >
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+    
+            <!-- 마이멤버십 -->
+            <div class="my_membership hide_main">
+                <!-- 여기다 보더 윗부분만 까만줄 -->
+                <div class="my_section_membership">
+                    <h3>My 멤버십
+                        <button><i class="bi bi-card-list"></i>구매내역</button>
+                    </h3>
+                    <div class="benefit_sub">
+                        <p><strong>현재 보유하신 멤버십이 없습니다.</strong></p>
+                        <p>첫 구독이라면 2개월 50% 할인 혜택을 받아보세요.</p>
+                        <button onclick="main()">첫 구독 할인 혜택 받기</button>
+                    </div>
+                    <div class="benefit_ezen">
+                        <p>Ezen 학원생 특정 요금제 및 부가 서비스</p>
+                        <p>학생 전용 혜택을 받아보세요.</p>
+                        <button onclick="main()">Ezen 학원생 혜택받기</button>
+                    </div>
+                </div>
+                <div class="my_section">
+                    <h3>등록기기</h3>
+                    <p>등록된 기기가 없습니다.</p>
+                    <ol>
+                        <li>DRM과 MP3 음원은 등록된 디바이스에서만 저장 및 재생 할 수 있습니다.</li>
+                        <li>모바일 기기는 계정당 2개만 등록할 수 있습니다.</li>
+                        <li>등록 기기 변경은 월 2회만 가능합니다.</li>
+                        <li>변경 횟수는 매월 1일에 초기화됩니다.</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="footer">
+                <div class="footer1">
+                    <div>
+                        <span>공지사항</span>
+                        <a href="">지난 공지 보기</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <span class="s1">이젠뮤직(주) 대표</span><span class="s2">강서연 최별 황지영 김미수</span>
+                    <span class="s1">사업자등록번호</span><span class="s2">123-45-67890</span>
+                    <span class="s1">통신판매업신고번호</span><span class="s2">제2023-인천남초-1004호</span><br>
+                    <span class="s1">주소</span><span class="s2">인천광역시 남동구 인주대로 593 엔타스빌딩 12층</span>
+                    <span class="s1">대표번호</span><span class="s2">1588-1234</span>
+                    <span class="s1">이메일</span><span class="s2">ezenmusic@gmail.com</span>
+            <span class="s1">호스팅 서비스 제공</span><span class="s2">아마존웹서비시즈코리아 유한회사</span><br>
+            <a href="">개인정보처리방침</a>
+            <a href="">이젠뮤직 이용약관</a>
+            <a href="">고객센터</a>
+            <a href="">결제/환불 안내</a>
+            <a href=""><i class="bi bi-robot"></i>EZEN MUSIC 스마트봇</a>
+            <a href=""><i class="bi bi-chat-left-dots-fill"></i>톡톡상담</a>
+            <a href="">사업자정보 확인</a>
+            <a href="">© EZEN Corp</a>
+        </div>
+    </div>
+    <script src="..음악목록.js"></script>
+    <script src="..음악.js"></script>
+    <script src="../membership/membership.js"></script>
+</body>
+</html>

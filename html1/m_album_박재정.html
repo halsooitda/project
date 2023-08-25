@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/main.css">
+
+    <link rel="stylesheet" href="음악.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Video Background</title>
+
+    <link rel="stylesheet" href="../css/m_album_박재정.css">
+</head>
+
+<body>
+    <div class="screen">
+        <!-- navbar -->
+        <div class="nav">
+            <div class="box"></div>
+            <a href="../main.html" class="logo">EZEN MUSIC</a><br>
+            <div class="login">
+                <span class="material-symbols-outlined">account_circle</span>
+                <a href="../login.html">로그인</a>
+            </div><br>
+            <button class="member" onclick="membership()">멤버십</button><br>
+            <input type="text" class="search" placeholder="MUSIC 검색">
+            <ul class="menu-box">
+                <li>
+                    <span class="material-symbols-outlined ">home</span>
+                    <a href="../main.html" class="menu ">HOME</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">trophy</span>
+                    <a href="../탑100.html" class="menu">TOP100</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">album</span>
+                    <a href="../DJ.html" class="menu">DJ추천</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">library_music</span>
+                    <a href="" class="menu">최신앨범</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">newsmode</span>
+                    <a href="../매거진.html" class="menu">매거진</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">favorite</span>
+                    <a href="" class="menu">보관함</a>
+                </li>
+            </ul>
+            <ul class="menu-box2">
+                <li class="qna"><a href="../문의사항.html">문의게시판</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">공지사항</a></li>
+            </ul>
+        </div>
+        <div id="total">
+            <video id="video-background" autoplay loop muted>
+                <source src="../mv/박재정.mp4" type="video/mp4">
+            </video>
+            <div id="explanation">
+                <h1>"노래하는 박재정입니다"</h1>
+                <h3>가수 박재정의 모든 곡들 중 가장 어려운 곡이자 여전히 아름다운지의 강화판 헬곡.</h3>
+                <h3>합적으로 고음, 호흡 부분의 엄청난 난이도로 인해 박재정이 부른 모든 곡들 중 가장 어려운 난곡이라고 할 수 있다
+                </h3>
+            </div>
+            <div id="album_p">
+                <div id="album_picture"></div>
+                <div id="listen_album">
+                    <div id="listen_album_title">수록곡</div>
+                    <ul>
+                        <li>헤어지자 말해요<div id="play_button_box"><button id="play_button"
+                                    onclick="listen_1()">노래듣기</button>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div id="container">
+                <h1>Comments</h1>
+                <input type="text" id="comment" maxlength="30" placeholder="30자만 가능해요." oninput="maxlength_f()"><span
+                    id="close_k" onclick="clear1()">X</span>
+
+                <button id="add">+</button>
+                <ol id="commentList_other">
+                    <li id="list_css">1. 박재정 너무 멋있어요!<div id="commentList_btn_box" onclick="removeList_other()"><span
+                                class="close">X</span></div>
+                    </li>
+                    <li id="list_css">2. 이별해서 듣는 중ㅎㅎ<div id="commentList_btn_box" onclick="removeList_other()"><span
+                                class="close">X</span></div>
+                    </li>
+                    <li id="list_css">3. 진짜 노래 너무 좋다<div id="commentList_btn_box" onclick="removeList_other()"><span
+                                class="close">X</span></div>
+                    </li>
+                </ol>
+                <ol id="commentList"></ol>
+            </div>
+        </div>
+        <script type="text/javascript" src="../js/m_album.js"></script>
+
+        </script>
+</body>
+
+</html>

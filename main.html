@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./음악.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="./link.js"></script>
+    <script src="./main.js"></script>
+    
+    <!-- alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css" rel="stylesheet">
+ </head>
+</head>
+<body>
+    <div class="screen">
+        <!-- navbar -->
+        <div class="nav">
+            <div class="box"></div>
+            <a href="./main.html" class="logo">EZEN MUSIC</a><br>
+            <div class="login">
+                <span class="material-symbols-outlined">account_circle</span>
+                <a href="./login.html">로그인</a>
+            </div><br>
+            <button class="member" onclick="membership()">멤버십</button><br>
+            <input type="text" class="search" placeholder="MUSIC 검색">
+            <ul class="menu-box">
+                <li>
+                    <span class="material-symbols-outlined home">home</span>
+                    <a href="./main.html" class="menu home">HOME</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">trophy</span>
+                    <a href="./탑100.html" class="menu">TOP100</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">album</span>
+                    <a href="./DJ.html" class="menu">DJ추천</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">library_music</span>
+                    <a href="https://vibe.naver.com/new-release-album/manual" class="menu">최신앨범</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">newsmode</span>
+                    <a href="./매거진.html" class="menu">매거진</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">favorite</span>
+                    <a href="#" class="menu" onclick="alert()">보관함</a>
+                </li>
+            </ul>
+            <ul class="menu-box2">
+                <li class="qna"><a href="./문의사항.html" >문의게시판</a></li>
+                <li><a href="#" >이벤트</a></li>
+                <li><a href="https://m.post.naver.com/my.naver?memberNo=42980762" >공지사항</a></li>
+            </ul>
+        </div>  
+        
+        <!-- main -->
+        <div class="main">
+            <div class="slide">
+                <div class="sImg">
+                    <div class="sImgBox">
+                        <a href="">
+                            <img src="./images/tempsnip3.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="sImgBox">
+                        <a href="">
+                            <img src="./images/tempsnip2.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="sImgBox">
+                        <a href="">
+                            <img src="./images/tempsnip.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="sPager">
+                    <ul>
+                        <li class="active">01</li>
+                        <li>02</li>
+                        <li>03</li>
+                    </ul>
+                </div>
+                <div class="sPrev"><span>이전으로</span></div>
+                <div class="sNext"><span>다음으로</span></div>
+            </div>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script src="./슬라이드.js"></script>
+
+            <!-- top10 -->
+            <div class="tnm">
+                <p class="title">오늘 Top 100</p>
+                <a href="./탑100.html" class="more">더 보기</a>
+            </div>
+            <div class="top10">
+                <a href="" class="first">
+                    <img src="./image/뉴진스.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>1</span>
+                    <ul>
+                        <li>ETA</li>
+                        <li>NewJeans</li>
+                    </ul>
+                </a>
+                <a href="" class="first">
+                    <img src="./image/박재정.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>6</span>
+                    <ul>
+                        <li>헤어지자 말해요</li>
+                        <li>박재정</li>
+                    </ul>
+                </a>
+                <a href="" class="first">
+                    <img src="./image/뉴진스.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>11</span>
+                    <ul>
+                        <li>New Jeans</li>
+                        <li>NewJeans</li>
+                    </ul>
+                </a>
+                <a href="" >
+                    <img src="./image/뉴진스.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>2</span>
+                    <ul>
+                        <li>Super Shy</li>
+                        <li>NewJeans</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/르세라핌.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>7</span>
+                    <ul>
+                        <li>이브, 프시케 그리고 푸른 수염의 아내</li>
+                        <li>LE SSERAFIM (르세라핌)</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/ditto.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>12</span>
+                    <ul>
+                        <li>Ditto</li>
+                        <li>NewJeans</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/iam.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>3</span>
+                    <ul>
+                        <li>I AM</li>
+                        <li>IVE(아이브)</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/hypeboy.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>8</span>
+                    <ul>
+                        <li>Hype boy</li>
+                        <li>NewJeans</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/afterlike.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>13</span>
+                    <ul>
+                        <li>After LIKE</li>
+                        <li>IVE(아이브)</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/정국.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>4</span>
+                    <ul>
+                        <li>Seven (feat. Latto) - Clean Ver.</li>
+                        <li>정국</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/spicy.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>9</span>
+                    <ul>
+                        <li>Spicy</li>
+                        <li>aespa</li>
+                    </ul>
+                </a>
+                <a href="">
+                    <img src="./image/르세라핌.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>14</span>
+                    <ul>
+                        <li>UNFORGIVEN (feat. Nile Rodgers)</li>
+                        <li>LE SSERAFIM (르세라핌)</li>
+                    </ul>
+                </a>
+                <a href="" class="last">
+                    <img src="./image/퀸카.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>5</span>
+                    <ul>
+                        <li>퀸카</li>
+                        <li>(여자)아이들</li>
+                    </ul>
+                </a>
+                <a href="" class="last">
+                    <img src="./image/kitch.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>10</span>
+                    <ul>
+                        <li>Kitsch</li>
+                        <li>IVE(아이브)</li>
+                    </ul>
+                </a>
+                <a href="" class="last">
+                    <img src="./image/전소미.jpg" alt="">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                    <span>15</span>
+                    <ul>
+                        <li>Fast Forward</li>
+                        <li>전소미</li>
+                    </ul>
+                </a>
+            </div>
+
+            <!-- 매거진 -->
+            <p class="title">매거진</p>
+            <div class="recommend seoyeon">
+                <a href="./매거진.html">
+                    <img src="./images/be who you are.jpg" alt="" class="img imgFirst">
+                    <span class="material-symbols-outlined playbtn">Newsmode</span>
+                </a>
+                <a href="../project/html1/김미수님.html">
+                    <img src="./image/크리스찬.jpg" alt="" class="img">
+                    <span class="material-symbols-outlined playbtn">Newsmode</span>
+                </a>
+                <a href="">
+                    <img src="./image/뷔.png" alt="" class="img">
+                    <span class="material-symbols-outlined playbtn">Newsmode</span>
+                </a>
+                <a href="">
+                    <img src="./image/조유리.png" alt="" class="img">
+                    <span class="material-symbols-outlined playbtn">Newsmode</span>
+                </a>
+                <a href="">
+                    <img src="./image/전소미.png" alt="" class="img lastimg">
+                    <span class="material-symbols-outlined playbtn">Newsmode</span>
+                </a>
+                <a href="./매거진.html">
+                    <ul class="albumName nameFirst">
+                        <li>New Release #157 :</li>
+                        <li>Jon Batiste</li>
+                        <li>2023.08.21</li>
+                    </ul>
+                </a>
+                <ul class="albumName name">
+                    <li>DJ김미수,</li>
+                    <li>확장되는 음악세계</li>
+                    <li>2023.08.16</li>
+                </ul>
+                <ul class="albumName name">
+                    <li>New Release #156 :</li>
+                    <li>뷔, 올리비아 로드리고</li>
+                    <li>2023.08.14</li>
+                </ul>
+                <ul class="albumName name">
+                    <li>조유리,</li>
+                    <li>사랑스럽게 직진</li>
+                    <li>2023.08.11</li>
+                </ul>
+                <ul class="albumName name">
+                    <li>테크토닉</li>
+                    <li>소미</li>
+                    <li>2023.08.09</li>
+                </ul>
+            </div>
+
+            <p class="title">차트올킬⚡</p>
+            <div class="recommend seoyeon">
+                <a href="">
+                    <img src="./image/힙합.jpg" alt="" class="img imgFirst">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                </a>
+                <a href="">
+                    <img src="./image/팝.jpg" alt="" class="img">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                </a>
+                <a href="">
+                    <img src="./image/ost.jpg" alt="" class="img">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                </a>
+                <a href="">
+                    <img src="./image/댄스.jpg" alt="" class="img">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                </a>
+                <a href="">
+                    <img src="./image/케이팝.jpg" alt="" class="img lastimg">
+                    <span class="material-symbols-outlined playbtn">play_arrow</span>
+                </a>
+                <ul class="chart nameFirst">
+                    <li>차트 올킬 힙합</li>
+                    <li>EZEN 국내 힙합</li>
+                </ul>
+                <ul class="chart name">
+                    <li>차트 올킬 POP</li>
+                    <li>EZEN POP</li>
+                </ul>
+                <ul class="chart name">
+                    <li>차트 올킬 한국 OST</li>
+                    <li>EZEN OST</li>
+                </ul>
+                <ul class="chart name">
+                    <li>차트 올킬 댄스</li>
+                    <li>EZEN 국내 댄스</li>
+                </ul>
+                <ul class="chart name">
+                    <li>차트 올킬 K-POP</li>
+                    <li>EZEN K-POP</li>
+                </ul>
+            </div>
+            <!-- tag 노래 추천 -->
+            <p class="title">#태그 노래 추천</p>
+            <div class="tag">
+                <div class="tags style">
+                    <a href="">#밝은</a>
+                    <a href="">#신나는</a>
+                    <a href="">#편안한</a>
+                    <a href="">#따뜻한</a>
+                    <a href="">#그루브한</a>
+                    <a href="">#로맨틱한</a>
+                    <a href="">#웅장한</a>
+                    <a href="">#어두운</a>
+                    <a href="">#시원한</a>
+                    <a href="">#영화음악</a>
+                    <a href="">#연주</a>
+                </div>
+                <div class="tags weather">
+                    <a href="">#봄</a>
+                    <a href="">#여름</a>
+                    <a href="">#가을</a>
+                    <a href="">#겨울</a>
+                    <a href="">#비오는날</a>
+                    <a href="">#맑은날</a>
+                    <a href="">#눈오는날</a>
+                    <a href="">#추운날</a>
+                    <a href="">#흐린날</a>
+                    <a href="">#안개낀날</a>
+                </div>
+                <div class="tags doing">
+                    <a href="./html1/song_random1.html">#휴식이필요할때</a>
+                    <a href="./html1/song_random2.html">#에너지가필요할때</a>
+                    <a href="./html1/song_random3.html">#위로가필요할때</a>
+                    <a href="./html1/song_random4.html">#집중할때</a>
+                    <a href="./html1/song_random5.html">#사랑할때</a>
+                    <a href="./html1/song_random6.html">#사랑했을때</a>
+                    <a href="">#공부할때</a>
+                    <a href="">#잠이안올때</a>
+                    <a href="">#울때</a>
+                </div>
+                <div class="tags feeling">
+                    <a href="">#외로움</a>
+                    <a href="">#슬픔</a>
+                    <a href="">#위로</a>
+                    <a href="">#스트레스</a>
+                    <a href="">#행복</a>
+                    <a href="">#축하</a>
+                    <a href="">#설렘</a>
+                    <a href="">#추억</a>
+                    <a href="">#우울</a>
+                    <a href="">#힘듦</a>
+                    <a href="">#힘찬</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer1">
+                <div>
+                    <span>공지사항</span>
+                    <a href="">지난 공지 보기</a>
+                </div>
+                <div>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+            <div class="footer2">
+                <span class="s1">이젠뮤직(주) 대표</span><span class="s2">강서연 최별 황지영 김미수</span>
+                <span class="s1">사업자등록번호</span><span class="s2">123-45-67890</span>
+                <span class="s1">통신판매업신고번호</span><span class="s2">제2023-인천남초-1004호</span><br>
+                <span class="s1">주소</span><span class="s2">인천광역시 남동구 인주대로 593 엔타스빌딩 12층</span>
+                <span class="s1">대표번호</span><span class="s2">1588-1234</span>
+                <span class="s1">이메일</span><span class="s2">ezenmusic@gmail.com</span>
+                <span class="s1">호스팅 서비스 제공</span><span class="s2">아마존웹서비시즈코리아 유한회사</span><br>
+                <a href="">개인정보처리방침</a>
+                <a href="">이젠뮤직 이용약관</a>
+                <a href="">고객센터</a>
+                <a href="">결제/환불 안내</a>
+                <a href=""><i class="bi bi-robot"></i>EZEN MUSIC 스마트봇</a>
+                <a href=""><i class="bi bi-chat-left-dots-fill"></i>톡톡상담</a>
+                <a href="">사업자정보 확인</a>
+                <a href="">© EZEN Corp</a>
+            </div>
+        </div>
+
+        <!-- playbar -->
+        <div class="wrap__music">
+            <div class="music__inner">
+                <div class="music__top">
+                    <!-- // music__song -->
+                    <div class="music__progress">
+                        <div class="bar">
+                            <audio id="main-audio" src=""></audio>
+                        </div>
+                        <div class="timer">
+                            <span class="current">0:00</span>
+                            <span class="duration">0:00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- // music__top -->
+                <div class="mainMusic">
+                    <div class="music__img">
+                        <img src="/image/dog1.jpg" alt="">
+                    </div>
+                    <!-- // music__img -->
+                    <div class="music__song">
+                        <p class="name"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <!-- // music__progress -->
+                    <div class="music__control">
+                        <i id="control-prev" class="material-icons" title="이전곡">skip_previous</i>
+                        <div class="play-pause">
+                            <i id="control-play" class="material-icons" title="재생">play_arrow</i>
+                            <!-- <i class="material-icons">pause</i> -->
+                        </div>
+                        <i id="control-next" class="material-icons" title="다음곡">skip_next</i>
+                        <div>
+                            <i id="control-repeat" class="material-icons" title="전체 반복">repeat</i>
+                        </div>
+                        <i id="control-list" class="material-icons" title="재생목록">queue_music</i>
+                    </div>
+                    <!-- // music__control -->
+                    <div class="music__list">
+                        <div class="title">
+                            <div>
+                                <i class="material-icons queue">queue_music</i>
+                                <span>Music List</span>
+                            </div>
+                            <i class="material-icons close">close</i>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <!-- Javascript -->
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- // music__list -->
+            </div>
+        </div>
+        <script src="./탑100음악목록.js"></script>
+        <script src="./음악.js"></script>
+    </div>
+</body>
+</html>

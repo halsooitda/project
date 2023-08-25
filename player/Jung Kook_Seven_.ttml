@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="17.0s" xml:id="p0" end="21.0s">Weight of the world on your shoulders</p>
+      <p begin="21.0s" xml:id="p1" end="24.0s">I kiss your waist and ease your mind</p>
+      <p begin="24.0s" xml:id="p2" end="28.0s">I must be favored to know ya</p>
+      <p begin="28.0s" xml:id="p3" end="31.0s">I take my hands and trace your lines</p>
+      <p begin="31.0s" xml:id="p4" end="35.0s">It’s the way that we can ride</p>
+      <p begin="35.0s" xml:id="p5" end="36.0s">Think I met you in another life</p>
+      <p begin="36.0s" xml:id="p6" end="39.0s">So break me off another time</p>
+      <p begin="39.0s" xml:id="p7" end="42.0s">You wrap around me and you give me life</p>
+      <p begin="42.0s" xml:id="p8" end="44.0s">And that’s why night after night</p>
+      <p begin="44.0s" xml:id="p9" end="47.0s">I’ll be lovin’ you right</p>
+      <p begin="47.0s" xml:id="p10" end="51.0s">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
+      <p begin="51.0s" xml:id="p11" end="53.0s">Monday Tuesday Wednesday Thursday Friday</p>
+      <p begin="53.0s" xml:id="p12" end="54.0s">Seven days a week</p>
+      <p begin="54.0s" xml:id="p13" end="57.0s">Every hour every minute every second</p>
+      <p begin="57.0s" xml:id="p14" end="59.0s">You know night after night</p>
+      <p begin="59.0s" xml:id="p15" end="61.0s">I’ll be lovin’ you right</p>
+      <p begin="61.0s" xml:id="p16" end="64.0s">Seven days a week</p>
+      <p begin="64.0s" xml:id="p17" end="65.0s">You love when I jump right in</p>
+      <p begin="65.0s" xml:id="p18" end="67.0s">All of me I’m offering</p>
+      <p begin="67.0s" xml:id="p19" end="69.0s">Show you what devotion is</p>
+      <p begin="69.0s" xml:id="p20" end="71.0s">Deeper than the ocean is</p>
+      <p begin="71.0s" xml:id="p21" end="73.0s">Wind it back I’ll take it slow</p>
+      <p begin="73.0s" xml:id="p22" end="75.0s">Leave you with that afterglow</p>
+      <p begin="75.0s" xml:id="p23" end="77.0s">Show you what devotion is</p>
+      <p begin="77.0s" xml:id="p24" end="79.0s">Deeper than the ocean is</p>
+      <p begin="79.0s" xml:id="p25" end="83.0s">It’s the way that we can ride</p>
+      <p begin="83.0s" xml:id="p26" end="84.0s">Think I met you in another life</p>
+      <p begin="84.0s" xml:id="p27" end="87.0s">So break me off another time</p>
+      <p begin="87.0s" xml:id="p28" end="90.0s">You wrap around me and you give me life</p>
+      <p begin="90.0s" xml:id="p29" end="92.0s">And that’s why night after night</p>
+      <p begin="92.0s" xml:id="p30" end="95.0s">I’ll be lovin’ you right</p>
+      <p begin="95.0s" xml:id="p31" end="99.0s">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
+      <p begin="99.0s" xml:id="p32" end="101.0s">Monday Tuesday Wednesday Thursday Friday</p>
+      <p begin="101.0s" xml:id="p33" end="102.0s">Seven days a week</p>
+      <p begin="102.0s" xml:id="p34" end="105.0s">Every hour every minute every second</p>
+      <p begin="105.0s" xml:id="p35" end="107.0s">You know night after night</p>
+      <p begin="107.0s" xml:id="p36" end="109.0s">I’ll be lovin’ you right</p>
+      <p begin="109.0s" xml:id="p37" end="110.0s">Seven days a week</p>
+      <p begin="110.0s" xml:id="p38" end="114.0s">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
+      <p begin="114.0s" xml:id="p39" end="116.0s">Monday Tuesday Wednesday Thursday Friday</p>
+      <p begin="116.0s" xml:id="p40" end="118.0s">Seven days a week</p>
+      <p begin="118.0s" xml:id="p41" end="121.0s">Every hour every minute every second</p>
+      <p begin="121.0s" xml:id="p42" end="122.0s">You know night after night</p>
+      <p begin="122.0s" xml:id="p43" end="124.0s">I’ll be lovin’ you right</p>
+      <p begin="124.0s" xml:id="p44" end="125.0s">Seven days a week</p>
+      <p begin="125.0s" xml:id="p45" end="126.0s">Tightly take control</p>
+      <p begin="126.0s" xml:id="p46" end="127.0s">Tightly take his soul</p>
+      <p begin="127.0s" xml:id="p47" end="130.0s">Take your phone put it in the camera roll</p>
+      <p begin="130.0s" xml:id="p48" end="131.0s">Leave them clothes at the door</p>
+      <p begin="131.0s" xml:id="p49" end="133.0s">What you waiting for, better come and hit ya goals</p>
+      <p begin="133.0s" xml:id="p50" end="134.0s">He jump in it both feet</p>
+      <p begin="134.0s" xml:id="p51" end="136.0s">Going to the sun-up, we ain’t getting no sleep</p>
+      <p begin="136.0s" xml:id="p52" end="139.0s">Seven days a week, seven different sheets, Seven different angles</p>
+      <p begin="139.0s" xml:id="p53" end="141.0s">I can be your fantasy</p>
+      <p begin="141.0s" xml:id="p54" end="142.0s">Open up say ahhh</p>
+      <p begin="142.0s" xml:id="p55" end="144.0s">Come here baby let me swallow your pride</p>
+      <p begin="144.0s" xml:id="p56" end="146.0s">What you on I can match your vibe</p>
+      <p begin="146.0s" xml:id="p57" end="149.0s">Hit me up and I’mma Cha Cha Slide</p>
+      <p begin="149.0s" xml:id="p58" end="151.0s">You make Mondays feel like weekends</p>
+      <p begin="151.0s" xml:id="p59" end="153.0s">I make him never think about cheatin’</p>
+      <p begin="153.0s" xml:id="p60" end="155.0s">Got you skipping work and meetings, fuck it, let’s sleep in</p>
+      <p begin="155.0s" xml:id="p61" end="156.0s">Seven days a week</p>
+      <p begin="156.0s" xml:id="p62" end="160.0s">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
+      <p begin="160.0s" xml:id="p63" end="162.0s">Monday Tuesday Wednesday Thursday Friday</p>
+      <p begin="162.0s" xml:id="p64" end="164.0s">Seven days a week</p>
+      <p begin="164.0s" xml:id="p65" end="167.0s">Every hour every minute every second</p>
+      <p begin="167.0s" xml:id="p66" end="169.0s">You know night after night</p>
+      <p begin="169.0s" xml:id="p67" end="170.0s">I’ll be lovin’ you right</p>
+      <p begin="170.0s" xml:id="p68" end="172.0s">Seven days a week</p>
+      <p begin="172.0s" xml:id="p69" end="175.0s">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
+      <p begin="175.0s" xml:id="p70" end="178.0s">Monday Tuesday Wednesday Thursday Friday</p>
+      <p begin="178.0s" xml:id="p71" end="179.0s">Seven days a week</p>
+      <p begin="179.0s" xml:id="p72" end="182.0s">Every hour every minute every second</p>
+      <p begin="182.0s" xml:id="p73" end="184.0s">You know night after night</p>
+      <p begin="184.0s" xml:id="p74" end="185.0s">I’ll be lovin’ you right</p>
+      <p begin="185.0s" xml:id="p75" end="186.0s">Seven days a week</p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,584 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 전체에 주는 값 */
+body{
+    font-family: 'GongGothicMedium';
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.screen{
+    width: 100%;
+}
+/* navbar */
+.nav{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    padding: 10px 10px 0 20px;
+    border-right: 1px solid rgba(143, 143, 143, 0.527);
+    background-color: black;
+    z-index: 20;
+}
+.nav>.box{
+    height: 10px;
+}
+.nav>.logo{
+    font-size: 30px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(245, 30, 102), rgb(179, 99, 253));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.nav>.login{
+    display: flex;
+    text-align: center;
+    /* 아이콘 정렬 */
+    border-top: 1px solid rgba(143, 143, 143, 0.527);
+    border-bottom: 1px solid rgba(143, 143, 143, 0.527);
+    padding: 15px 0;
+    margin-top: 10px;
+}
+.nav>.login>a{
+    /* font-weight: 700; */
+    margin-left: 5px;
+    
+}
+.nav>.login>.material-symbols-outlined{
+    margin-left: 10px;
+}
+.nav .material-symbols-outlined{
+    color: rgba(255, 255, 255, 0.616);
+}
+.nav>.member{
+    width: 185px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, rgb(255, 0, 85), rgb(139, 30, 240));
+    background-clip: background;
+    -webkit-background-clip: background;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'GongGothicMedium';
+}
+.nav>.search{
+    margin-top: 20px;
+    width: 173px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(27, 27, 27, 0.753);
+    /* font-weight: 700; */
+    font-size: 15px;
+    color: white;
+    font-family: 'GongGothicMedium';
+}
+.menu-box li, .menu-box2 li{
+    margin-left: 5px;
+    padding: 20px 0 10px 0;
+    display: flex;
+    text-align: center;
+}
+.menu-box li:last-child{
+    margin-bottom: 20px;
+}
+.menu-box>li>.home, .menu-box>li>.home{
+    color: rgb(255, 44, 115);
+}
+.qna{
+    margin-top: 8px;
+}
+.nav a{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.671);
+}
+.nav a:not(.home):not(.logo):hover{
+    color: white;
+}
+.menu-box>li>.home:hover{
+    color: rgba(255, 30, 105, 0.774);
+}
+.nav>.menu-box{
+    border-bottom: 1px solid rgba(143, 143, 143, 0.527);
+}
+.menu{
+    padding-left: 8px;
+}
+/* ---------------------------------------------------------------- */
+.main{
+    width: calc(100% - 300px);
+    /* border: 1px solid rgb(255, 255, 255); */
+    float: right;
+}
+
+/* top10 */
+.main>.tnm{
+    width: 1470px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .title{
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    padding: 60px 0 10px 40px;
+    font-size: 25px;
+    /* font-weight: 700; */
+    color: white;
+}
+.main>.tnm>.more{
+    color: white;
+    margin-top: 80px;
+    /* margin-right: 50px; */
+}
+.main>.top10{
+    width: 1470px;
+    height: 420px;
+    /* background-color: aquamarine; */
+    /* margin-top: 40px; */
+    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+.main>.top10 a{
+    width: 450px;
+    /* margin: 10px 20px; */
+    margin: 10px 20px 10px 0;
+    display: flex;
+    
+}
+.main>.top10 .first{
+    padding-top: 10px;
+}
+.main>.top10 a:not(.last){
+    border-bottom: 1px solid rgba(143, 143, 143, 0.527);
+}
+.main>.top10 a img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+/* .products a p{
+    display: none;
+}
+.products a:hover p{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    color: rgb(182, 93, 110);
+    font-weight: 600;
+    font-size: 30px;
+} */
+.main>.top10 a .material-symbols-outlined {
+    display: none;
+}
+.main>.top10 a:hover .material-symbols-outlined{
+    display: block;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    font-variation-settings:'FILL' 10;
+    background-color: rgba(0, 0, 0, 0.584);
+    line-height: 50px;
+    color: #ffffffeb;
+    font-size: 25px;
+    margin: 0;
+}
+.main>.top10 a span{
+    margin: 0 5px 0 17px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.main>.top10 a ul li{
+    padding: 0;
+    margin: 0 15px;
+    font-size: 15px;
+}
+.main>.top10 a ul li:nth-child(1){
+    color: white;
+    margin-bottom: 5px;
+}
+.main>.top10 a ul li:nth-child(2){
+    color: rgba(107, 107, 107, 0.795);
+}
+.main>.top10 a ul li:hover{
+    text-decoration: underline;
+}
+
+/* tag 음악 추천 */
+.main>.tag{
+    width: 1470px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 0px 0 40px 35px;
+}
+/* ---------------------------------------------------------- */
+.footer{
+    width: calc(100% - 230px);
+    height: 200px;
+    background-color: #111111;
+    float: right;
+    margin-bottom: 100px;
+}
+/* ------------------------------------------------------------- */
+/* 슬라이드 */
+.sImgBox a {
+    text-decoration: none;
+    color: inherit; /* 부모 요소를 상속 한다는 의미 */
+}
+/* slide */
+.slide {
+    position: relative;
+    width: 1470px;
+    height: 330px;
+    min-width: 1240px;
+    z-index: 10;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+/* 사진 영역 */
+.sImgBox a img{
+    position: absolute;
+    width: 1470px;
+    height: 330px;
+    left: 225px;
+}
+.sImg {
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+}
+.sImgBox {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+.sImgBox a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+/* pager btn */
+.sPager {
+    /* margin-top: 50px; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    translate: -50%;
+}
+.sPager ul {
+    display: flex;
+    justify-content: center;
+}
+.sPager li {
+    padding: 0;
+    width: 20px;
+    height: 5px;
+    margin: 0 20px;
+    background-color: #cacaca;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+.sPager .active {
+    background-color: rgb(255, 92, 92);
+}
+/* 좌우 버튼 */
+.sPrev,
+.sNext {
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    height: 20px;
+    border-top: 6px solid #ffffff;
+    border-left: 6px solid #ffffff;
+    cursor: pointer;
+}
+.sPrev {
+    left: 100px;
+    transform: rotate(-45deg);
+}
+.sNext {
+    right: 100px;
+    transform: rotate(135deg);
+}
+.sPrev span,
+.sNext span {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+#total{
+padding-left: 90px;
+}
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+ 
+    min-width:1920px;
+} */
+
+#background_btn {
+    width: 100%;
+    height: 100vh; 
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+    
+
+
+
+}
+
+
+
+#background_btn::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.831); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ ;
+    z-index: -3;
+}
+
+
+#title1, #title2 {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+#title1 {
+    opacity: 1;
+    animation: p_title1 3s ease-in-out;
+}
+#title2 {
+    display: none;
+    opacity: 0;
+    animation: p_title2 3s forwards ease-in-out;
+}
+
+@keyframes p_title1 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes p_title2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#btn-box {
+    margin-top: 20px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'GongGothicMedium';
+}
+
+.random_btn {
+    border: none;
+    outline: none;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+    height: 40px;
+    width: 220px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    opacity: 0.8;
+    background-color:gray;
+    line-height: 40px;
+    font-family: 'GongGothicMedium';
+    font-weight: 300;
+}
+
+.random_btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+#table_song {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+   
+    border: 1px solid #2c2c2c;
+    width: 40%;
+   margin-top: 40px;
+margin: 0 auto;
+padding-left: 30px;
+    background-color: #2c2c2c;
+justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid beige;
+    border: none;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+
+#table_song td:last-child {
+justify-content: right;
+
+}
+#song_list,#song_list1,#song_list2,#song_list3,#song_list4{
+   
+    height: 20px;
+    padding-left: 60px;
+       
+    }
+#table_song  {
+  
+    opacity: 0.8;
+    background-color:gray;
+
+ 
+   
+   
+}
+
+
+#title_song{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width:600px;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.344);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+ 
+}
+
+
+.listen_btn{
+    float: right;
+    margin-right: 5px;
+
+   
+
+}
+
+th, td{
+    width: 100px;
+height: 60px;
+font-size: 20px;
+}
+
+
+
+
+#table_song button{
+    border: none;
+    outline: none;
+    background-color: rgb(35, 34, 34);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    margin: 29;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'GongGothicMedium';
+    font-weight: 400;
+   
+
+}
+
+#table_song button:hover {
+    background-color: white;
+    color: black;
+}
+
+td:first-child:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+
+th{
+  text-align: center;
+  margin-bottom: 0px;
+  height: 10px;
+
+}
+
+@media screen and (max-width: 1500px) {
+
+
+    .random_btn {
+        font-size: 100%;
+    }
+
+}

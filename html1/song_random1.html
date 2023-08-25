@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../main.css">
+
+    <link rel="stylesheet" href="음악.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Video Background</title>
+
+    <link rel="stylesheet" href="../css/song_random.css">
+
+</head>
+
+<body>
+    <div class="screen">
+        <!-- navbar -->
+        <div class="nav">
+            <div class="box"></div>
+            <a href="../main.html" class="logo">EZEN MUSIC</a><br>
+            <div class="login">
+                <span class="material-symbols-outlined">account_circle</span>
+                <a href="../login.html">로그인</a>
+            </div><br>
+            <button class="member" onclick="membership()">멤버십</button><br>
+            <input type="text" class="search" placeholder="MUSIC 검색">
+            <ul class="menu-box">
+                <li>
+                    <span class="material-symbols-outlined ">home</span>
+                    <a href="../main.html" class="menu ">HOME</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">trophy</span>
+                    <a href="../탑100.html" class="menu">TOP100</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">album</span>
+                    <a href="../DJ.html" class="menu">DJ추천</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">library_music</span>
+                    <a href="" class="menu">최신앨범</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">newsmode</span>
+                    <a href="../매거진.html" class="menu">매거진</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">favorite</span>
+                    <a href="" class="menu">보관함</a>
+                </li>
+            </ul>
+            <ul class="menu-box2">
+                <li class="qna"><a href="../문의사항.html">문의게시판</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">공지사항</a></li>
+            </ul>
+        </div>
+        <div id="total">
+            <div id="background_btn">
+                <div class="total">
+                    <div id="title1">
+                        <h1>당신의 기분이 어떤가요?</h1>
+                    </div>
+                    <div id="title2">
+                        <h1>이젠 뮤직과 함께 공유해보아요!</h1>
+                    </div>
+
+                    <form action="">
+                        <div id="btn-box">
+                            <button type="button" class="random_btn" onclick="random1()"># 휴식이 필요할 때</button>
+                            <button type="button" class="random_btn" onclick="random2()"># 에너지가 필요할 때</button>
+                            <button type="button" class="random_btn" onclick="random3()"># 위로가 필요할 때</button>
+                            <button type="button" class="random_btn" onclick="random4()"># 집중 할 때</button>
+                            <button type="button" class="random_btn" onclick="random5()"># 사랑할 때</button>
+                            <button type="button" class="random_btn" onclick="random6()"># 사랑했을 때</button>
+                        </div>
+
+                        <table id="table_song" width="200px">
+                            <tr>
+                                <th colspan='2'>
+                                    <h1 id="title_song"></h1>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td id="song_list"></td>
+                                <td>
+                                    <button type="button" class="listen_btn" onclick="listen_1()">노래듣기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="song_list1"></td>
+                                <td>
+                                    <button type="button" class="listen_btn" onclick="listen_2()">노래듣기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="song_list2"></td>
+                                <td>
+                                    <button type="button" class="listen_btn" onclick="listen_3()">노래듣기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="song_list3"></td>
+                                <td>
+                                    <button type="button" class="listen_btn" onclick="listen_4()">노래듣기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="song_list4"></td>
+                                <td>
+                                    <button type="button" class="listen_btn" onclick="listen_5()">노래듣기</button>
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+
+                </form>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="../js/song_random1.js"></script>
+</body>
+
+</html>

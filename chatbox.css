@@ -1,0 +1,312 @@
+/* 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+/* .btn-6 {
+  background: rgb(247,150,192);
+  background: radial-gradient(circle, rgba(118,174,241,1) 0%, rgba(118,174,241,1) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+ box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover{
+  background: transparent;
+  color: #76aef1;
+  box-shadow: none;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+} */
+
+.header{
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #FCC8D1;
+    color: #D14D72;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    box-sizing: border-box;
+}
+.none{
+    display: none;
+}
+#question{
+    border-radius: 15px;
+    width: 60%;
+    box-sizing: border-box;
+}
+#answer:hover{
+    background-color: #FFABAB;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+#ALLanswer{
+    background-color: #FFABAB;
+    color: #D14D72;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#answer{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    width: 50%;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(252, 200, 209, 0.8);
+}
+
+.modal-wrap p:hover{
+    background-color: #FFABAB;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.modal-wrap p{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #D14D72;
+    line-height: 50px;
+    margin: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+p>.chatImg{
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+[class="bi-robot"]:checked,
+[class="bi-robot"]:not(:checked){
+    position: absolute;
+    left: -9999px;
+    box-sizing: border-box;
+}
+.bi-robot:checked + label,
+.bi-robot:not(:checked) + label{
+  position: fixed;
+  left: 1800px;
+  bottom: 30px;
+  height: 40px;
+  border-radius: 15px;
+  display: block;
+  width: 80px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  color: #FEF2F4;
+  box-sizing: border-box;
+  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+}
+.bi-robot:not(:checked) + label:hover{
+    background-color: #FEF2F4;
+    box-sizing: border-box;
+    color: #76aef1;
+}
+.bi-robot:checked + label .uil,
+.bi-robot:not(:checked) + label .uil{
+    margin-left: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.bi-robot:checked + label:after,
+.bi-robot:not(:checked) + label:after{
+    position: fixed;
+    bottom: 473px;
+    right: 130px;
+    z-index: 110;
+    width: 40px;
+    border-radius: 3px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    background-color: #FEF2F4;
+    color: #102770;
+    content: "\f00d"; 
+    font-family: FontAwesome;
+  box-shadow: 0 12px 25px 0 rgba(16,39,112,.25);
+  transition: all 200ms linear;
+  pointer-events: none;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.bi-robot:checked + label:hover:after,
+.bi-robot:not(:checked) + label:hover:after{
+    background-color: #D14D72;
+    color: #fff4cf;
+    box-sizing: border-box;
+}
+.bi-robot:checked + label:after{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    box-sizing: border-box;
+}
+.modal{
+    position: fixed;
+    display: block;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    overflow-x: hidden;
+    pointer-events: none;
+    opacity: 0;
+    box-sizing: border-box;
+}
+.bi-robot:checked ~ .modal{
+    pointer-events: auto;
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+    box-sizing: border-box;
+}
+.modal-wrap {
+    border: 1px solid #FFABAB;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: #FEF2F4;
+    align-self: center;
+    box-shadow: 0 12px 25px 0 rgba(199,175,189,.25);
+    left: 34%;
+    top: 20%;
+    transition: opacity 250ms 250ms ease, transform 300ms 250ms ease;
+    box-sizing: border-box;
+}
+.chatImg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    box-sizing: border-box;
+}
+.bi-robot:checked ~ .modal .modal-wrap{
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 250ms 500ms ease, transform 350ms 500ms ease;
+  box-sizing: border-box;
+}
+
+.bi-robot:checked ~ .logo2 img {
+    filter: brightness(100%);
+  transition: all 250ms linear;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 500px) {
+  .modal-wrap {
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    padding-bottom: 15px;
+  }
+  .modal-wrap p {
+    padding: 15px 20px 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+.modal-wrap::-webkit-scrollbar {
+  width: 16px;
+}
+.modal-wrap::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+.modal-wrap::-webkit-scrollbar-thumb {
+  background-color: #ff2e62;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+

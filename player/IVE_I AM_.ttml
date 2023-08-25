@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="5.0s" end="10.0s">다른 문을 열어 따라 갈 필요는 없어</p>
+      <p begin="10.0s" end="13.0s">넌 너의 길로 난 나의 길로</p>
+      <p begin="13.0s" end="17.0s">하루하루마다 색이 달라진 느낌</p>
+      <p begin="17.0s" end="20.0s">밝게 빛이 나는 길을 찾아</p>
+      <p begin="20.0s" end="24.0s">I’m on my way</p>
+      <p begin="24.0s" end="27.0s">넌 그냥 믿으면 돼</p>
+      <p begin="27.0s" end="32.0s">I’m on my way</p>
+      <p begin="32.0s" end="36.0s">보이는 그대로야</p>
+      <p begin="36.0s" end="40.0s">너는 누군가의 Dreams come true</p>
+      <p begin="40.0s" end="44.0s">제일 좋은 어느 날의 데자뷰</p>
+      <p begin="44.0s" end="48.0s">머물고픈 어딘가의 낯선 뷰</p>
+      <p begin="48.0s" end="51.0s">I’ll be far away</p>
+      <p begin="51.0s" end="52.0s">That’s my</p>
+      <p begin="52.0s" end="55.0s">Life is 아름다운 갤럭시</p>
+      <p begin="55.0s" end="59.0s">Be a writer, 장르로는 판타지</p>
+      <p begin="59.0s" end="64.0s">내일 내게 열리는 건 big big 스테이지</p>
+      <p begin="64.0s" end="68.0s">So that is who I am</p>
+      <p begin="68.0s" end="69.0s">Look at me</p>
+      <p begin="69.0s" end="70.0s">now</p>
+      <p begin="70.0s" end="72.0s">어제랑 또 다른 짜릿한 나</p>
+      <p begin="72.0s" end="73.0s">두려운 모든 게 설레이게</p>
+      <p begin="73.0s" end="75.0s">I’m in sky high, OMG</p>
+      <p begin="75.0s" end="80.0s">사소한 건 다 아득해져 와</p>
+      <p begin="80.0s" end="84.0s">Look at me now</p>
+      <p begin="84.0s" end="85.0s">I’m on fire</p>
+      <p begin="85.0s" end="87.0s">I’m on my way</p>
+      <p begin="87.0s" end="91.0s">넌 그냥 믿으면 돼</p>
+      <p begin="91.0s" end="96.0s">I’m on my way</p>
+      <p begin="96.0s" end="100.0s">보이는 그대로야</p>
+      <p begin="100.0s" end="104.0s">너는 누군가의 Dreams come true</p>
+      <p begin="104.0s" end="108.0s">제일 좋은 어느 날의 데자뷰</p>
+      <p begin="108.0s" end="112.0s">머물고픈 어딘가의 낯선 뷰</p>
+      <p begin="112.0s" end="115.0s">I’ll be far away</p>
+      <p begin="115.0s" end="116.0s">That’s my</p>
+      <p begin="116.0s" end="119.0s">Life is 아름다운 갤럭시</p>
+      <p begin="119.0s" end="123.0s">Be a writer, 장르로는 판타지</p>
+      <p begin="123.0s" end="128.0s">내일 내게 열리는 건 big big 스테이지</p>
+      <p begin="128.0s" end="133.0s">So that is who I am</p>
+      <p begin="133.0s" end="136.0s">어느 깊은 밤 길을 잃어도</p>
+      <p begin="136.0s" end="144.0s">차라리 날아올라 그럼 네가</p>
+      <p begin="144.0s" end="147.0s">지나가는 대로 길이거든</p>
+      <p begin="147.0s" end="150.0s">1, 2, 3</p>
+      <p begin="150.0s" end="153.0s">Fly up</p>
+      <p begin="153.0s" end="156.0s">I hope you’d be someone’s dreams come true</p>
+      <p begin="156.0s" end="160.0s">제일 좋은 어느 날의 데자뷰</p>
+      <p begin="160.0s" end="164.0s">머물고픈 어딘가의 낯선 뷰</p>
+      <p begin="164.0s" end="167.0s">I’ll be far away</p>
+      <p begin="167.0s" end="169.0s">That’s my</p>
+      <p begin="169.0s" end="172.0s">Life is 아름다운 갤럭시</p>
+      <p begin="172.0s" end="175.0s">Be a writer, 장르로는 판타지</p>
+      <p begin="175.0s" end="180.0s">내일 내게 열리는 건 big big 스테이지</p>
+      <p begin="180.0s" end="185.0s">So that is who I am</p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="4.0s" xml:id="p0" end="9.0s">네가 너무 보고 싶은데</p>
+      <p begin="9.0s" xml:id="p1" end="11.0s">보고 싶은데</p>
+      <p begin="11.0s" xml:id="p2" end="13.0s">[음악]</p>
+      <p begin="13.0s" xml:id="p3" end="15.0s">헤어지자고 말하려</p>
+      <p begin="15.0s" xml:id="p4" end="17.0s">오늘</p>
+      <p begin="17.0s" xml:id="p5" end="20.0s">너에게 가다가 우리</p>
+      <p begin="20.0s" xml:id="p6" end="22.0s">[음악]</p>
+      <p begin="22.0s" xml:id="p7" end="25.0s">추억 생각해 봐서</p>
+      <p begin="25.0s" xml:id="p8" end="28.0s">처음 본네 얼굴</p>
+      <p begin="28.0s" xml:id="p9" end="29.0s">마주친</p>
+      <p begin="29.0s" xml:id="p10" end="31.0s">눈동자</p>
+      <p begin="31.0s" xml:id="p11" end="35.0s">우와 가까스로</p>
+      <p begin="35.0s" xml:id="p12" end="36.0s">본나</p>
+      <p begin="36.0s" xml:id="p13" end="41.0s">예금이 서둘</p>
+      <p begin="41.0s" xml:id="p14" end="42.0s">손을 잡고</p>
+      <p begin="42.0s" xml:id="p15" end="46.0s">늙었던 우리의</p>
+      <p begin="46.0s" xml:id="p16" end="48.0s">첫눈을 보다가</p>
+      <p begin="48.0s" xml:id="p17" end="49.0s">문득</p>
+      <p begin="49.0s" xml:id="p18" end="50.0s">[음악]</p>
+      <p begin="50.0s" xml:id="p19" end="51.0s">캐</p>
+      <p begin="51.0s" xml:id="p20" end="52.0s">[음악]</p>
+      <p begin="52.0s" xml:id="p21" end="55.0s">럿던 그 가보고 싶었던</p>
+      <p begin="55.0s" xml:id="p22" end="57.0s">식당</p>
+      <p begin="57.0s" xml:id="p23" end="61.0s">난생 점 준비한 선물</p>
+      <p begin="61.0s" xml:id="p24" end="63.0s">고맙다는</p>
+      <p begin="63.0s" xml:id="p25" end="65.0s">말에 그는</p>
+      <p begin="65.0s" xml:id="p26" end="67.0s">물들이</p>
+      <p begin="67.0s" xml:id="p27" end="72.0s">바뀔까 봐 두려워 그대</p>
+      <p begin="72.0s" xml:id="p28" end="74.0s">먼저<br />[음악]</p>
+      <p begin="74.0s" xml:id="p29" end="77.0s">해야 되잖아</p>
+      <p begin="77.0s" xml:id="p30" end="79.0s">나는 사실</p>
+      <p begin="79.0s" xml:id="p31" end="85.0s">그대에게 좋은 사람이 아니에요</p>
+      <p begin="85.0s" xml:id="p32" end="88.0s">그대의 이제</p>
+      <p begin="88.0s" xml:id="p33" end="92.0s">날<br />떠나다 말해</p>
+      <p begin="92.0s" xml:id="p34" end="94.0s">잠시라도</p>
+      <p begin="94.0s" xml:id="p35" end="96.0s">행복을</p>
+      <p begin="96.0s" xml:id="p36" end="97.0s">느껴서</p>
+      <p begin="97.0s" xml:id="p37" end="102.0s">고마웠다고</p>
+      <p begin="102.0s" xml:id="p38" end="104.0s">시간이</p>
+      <p begin="104.0s" xml:id="p39" end="105.0s">지나고 나면</p>
+      <p begin="105.0s" xml:id="p40" end="107.0s">나는</p>
+      <p begin="107.0s" xml:id="p41" end="111.0s">어쩔 수 없을걸</p>
+      <p begin="111.0s" xml:id="p42" end="115.0s">너의 사진 보겠지</p>
+      <p begin="115.0s" xml:id="p43" end="117.0s">새로 사귄 친구</p>
+      <p begin="117.0s" xml:id="p44" end="119.0s">함께</p>
+      <p begin="119.0s" xml:id="p45" end="122.0s">웃음 띤네 얼굴 보면</p>
+      <p begin="122.0s" xml:id="p46" end="124.0s">말할 수</p>
+      <p begin="124.0s" xml:id="p47" end="129.0s">없을며 한 감정들이</p>
+      <p begin="129.0s" xml:id="p48" end="134.0s">힘들다는 걸 알지만 그대</p>
+      <p begin="134.0s" xml:id="p49" end="136.0s">[음악]<br />먼저</p>
+      <p begin="136.0s" xml:id="p50" end="139.0s">헤어지자마라</p>
+      <p begin="139.0s" xml:id="p51" end="141.0s">나는 사실</p>
+      <p begin="141.0s" xml:id="p52" end="147.0s">그대에게 좋은 사람이 아니에요</p>
+      <p begin="147.0s" xml:id="p53" end="149.0s">그대의 이제</p>
+      <p begin="149.0s" xml:id="p54" end="150.0s">날</p>
+      <p begin="150.0s" xml:id="p55" end="154.0s">떠나</p>
+      <p begin="154.0s" xml:id="p56" end="156.0s">다 말해도</p>
+      <p begin="156.0s" xml:id="p57" end="157.0s">행복을</p>
+      <p begin="157.0s" xml:id="p58" end="158.0s">느껴서</p>
+      <p begin="158.0s" xml:id="p59" end="163.0s">고마웠다고</p>
+      <p begin="163.0s" xml:id="p60" end="169.0s">할 수 있을까</p>
+      <p begin="169.0s" xml:id="p61" end="175.0s">그 기적인 건 나도</p>
+      <p begin="175.0s" xml:id="p62" end="178.0s">그땐 그럴 수밖에</p>
+      <p begin="178.0s" xml:id="p63" end="181.0s">없던 어린</p>
+      <p begin="181.0s" xml:id="p64" end="185.0s">나에게 한 번만 더</p>
+      <p begin="185.0s" xml:id="p65" end="194.0s">길을</p>
+      <p begin="194.0s" xml:id="p66" end="196.0s">그댈</p>
+      <p begin="196.0s" xml:id="p67" end="197.0s">정말<br />[음악]</p>
+      <p begin="197.0s" xml:id="p68" end="202.0s">사랑한다 말</p>
+      <p begin="202.0s" xml:id="p69" end="203.0s">해</p>
+      <p begin="203.0s" xml:id="p70" end="215.0s">그대에게 좋은 사람이 되고 싶었어</p>
+      <p begin="215.0s" xml:id="p71" end="219.0s">그대 위안이</p>
+      <p begin="219.0s" xml:id="p72" end="226.0s">당신을 영원히 사랑</p>
+      <p begin="226.0s" xml:id="p73" end="227.0s">[음악]</p>
+      <p begin="227.0s" xml:id="p74" end="228.0s">할테니</p>
+    </div>
+  </body>
+</tt>

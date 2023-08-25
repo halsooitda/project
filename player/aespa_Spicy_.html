@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>player</title>
+        <link rel="stylesheet" href="../reset.css" />
+        <link rel="stylesheet" href="../player/player.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+        <script src="https://unpkg.com/imsc@1.1.3/dist/imsc.all.min.js"></script>
+
+    </head>
+    <body>
+        <div class="player" style="background-image: url(../player/aespa_Spicy_.jpg);">
+            <div class="wrapper">
+                <header><h4>Ezen</h4></header>
+                <section>
+                    <div class="info">
+                        <div class="title_area">Spicy</div>
+                        <div class="artist_name_area">Aespa</div>
+                        <div class="btn_area">
+                            <div class="select">
+                                <select name="" id="">
+                                    <option value="1">AAC+</option>
+                                    <option value="2" selected>AAC 128k</option>
+                                    <option value="3">AAC 320k</option>
+                                    <option value="4">MP3 192k</option>
+                                    <option value="5">MP3 320k</option>
+                                </select>
+                            </div>
+                            <div class="btn">
+                                <span id="toggleHeart"><i class="bi bi-heart"></i></span>
+                                <button onclick="toggleHiddenMenu()">
+                                    <i class="bi bi-three-dots-vertical"></i>
+                                </button>
+                                <ul class="hidden_menu">
+                                    <li>곡 정보</li>
+                                    <li>앨범 정보</li>
+                                    <li>아티스트 정보</li>
+                                    <li>담기</li>
+                                    <li>다운로드</li>
+                                    <li>공유하기/음악나누기</li>
+                                    <li>선물하기</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="videoContainer">
+                                <video
+                                    src="../player/aespa_Spicy_.mp3" 
+                                    id="imscVideo"
+                                    width="220px"
+                                    height="220px"
+                                    style="background-image: url(../player/aespa_Spicy_.jpg);
+                                    background-size: cover;"
+                                >
+                                    <track
+                                        src="../player/aespa_Spicy_.ttml"
+                                        kind="subtitles"
+                                        label="Expanded TTML Sample"
+                                        srclang="en"
+                                    />
+                                </video>
+                            </div>
+                            <div id="render-div"></div>
+                        </div>
+                    <div class="progress-area">
+                        <div class="progress-bar">
+
+                        </div>
+                        <div class="song-timer">
+                            <span class="current-time">0:00</span>
+                            <span class="max-duration">3:24</span>
+                        </div>
+                    <div class="controls">
+                        <i id="prev" class="bi bi-repeat"></i>
+                        <i id="" class="bi bi-shuffle"></i>
+                        <i id="" class="bi bi-fast-forward-fill"></i>
+                        <i id="play-pause" class="bi bi-play-circle"></i>
+                        <i id="next" class="bi bi-fast-forward-fill"></i>
+                        <i id="" class="bi bi-volume-down"></i>
+                        <i id="" class="bi bi-card-list"></i>
+                    </div>
+                    <div class="payment">
+                        <span class="login">로그인 후, 전곡 스트리밍을 이용해 보세요.</span>
+                        <button onclick="popup_buy()">이용권 구매</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="../player/player.js"></script>
+    </body>
+</html>

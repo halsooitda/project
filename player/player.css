@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "GongGothicMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.hidden_menu {
+    display: none;
+    z-index: 1;
+}
+.show {
+    display: block;
+    position: absolute;
+}
+.hidden_menu > li {
+    padding: 7px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#toggleHeart > i {
+    transition: color 0.3s;
+}
+.heartColor {
+    color: red;
+}
+.hidden_menu > li:nth-child(1) {
+    border-radius: 5px 5px 0px 0px;
+}
+.hidden_menu > li:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+.hidden_menu > li:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.player {
+    width: 440px;
+    height: 670px;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 440px;
+    /* width: auto; */
+    height: 670px;
+    box-sizing: border-box;
+    background: rgba(44, 44, 44, 0.4);
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    padding: 20px;
+    overflow: hidden;
+    -ms-overflow-style: none; /* 인터넷 익스플로러 */
+    scrollbar-width: none; /* 파이어폭스 */
+}
+section {
+    margin: auto;
+}
+header {
+    height: 50px;
+}
+header > h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgb(100, 100, 100);
+    box-sizing: border-box;
+    color: white;
+}
+.info {
+    margin: auto;
+    width: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.info > .title_area {
+    padding: 5px 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.info > .btn_area {
+    padding: 20px 0px;
+    display: flex;
+}
+.info > .btn_area > .select {
+    padding-right: 80px;
+}
+.info > .btn_area > .select > select {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+.info > .btn_area > .btn > span > i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.info > .btn_area > .btn > button {
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 0px;
+}
+
+.ui {
+    height: 130px;
+    box-sizing: border-box;
+}
+.payment {
+    color: white;
+    height: 60px;
+    box-sizing: border-box;
+}
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+.controls > i {
+    color: white;
+    font-size: 20px;
+}
+.controls > i:nth-child(1),
+i:nth-child(2) {
+    color: rgb(177, 177, 177);
+}
+.controls > i:nth-child(3) {
+    transform: rotate(90deg);
+
+    -moz-transform: scaleX(-1);
+
+    -o-transform: scaleX(-1);
+
+    -webkit-transform: scaleX(-1);
+
+    transform: scaleX(-1);
+
+    filter: FlipH;
+
+    -ms-filter: "FlipH";
+}
+.controls > i:nth-child(4) {
+    font-size: 40px;
+}
+
+.progress-area {
+    height: 6px;
+    width: 100%;
+    border-radius: 50px;
+    background: #f0f0f0;
+    cursor: pointer;
+    margin-bottom: 100%;
+}
+
+.progress-area .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    width: 0%;
+    border-radius: inherit;
+}
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    top: 50%;
+    right: -5px;
+    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%);
+    background: inherit;
+}
+.progress-area:hover .progress-bar::before {
+    opacity: 1;
+    pointer-events: auto;
+}
+.progress-area .song-timer {
+    margin-top: 2px;
+}
+.payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment > span {
+    font-size: 12px;
+}
+.payment > button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 13px;
+}
+.song-timer span {
+    font-size: 13px;
+    color: white;
+}
+
+#render-div {
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: -180px;
+    pointer-events: none;
+}

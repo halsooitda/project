@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="27.0s" xml:id="p0" end="28.0s">(1,2,3,4)</p>
+      <p begin="28.0s" xml:id="p1" end="31.0s">Baby, got me looking so crazy</p>
+      <p begin="31.0s" xml:id="p2" end="34.0s">빠져버리는 daydream</p>
+      <p begin="34.0s" xml:id="p3" end="35.0s">Got me feeling you</p>
+      <p begin="35.0s" xml:id="p4" end="38.0s">너도 말해줄래</p>
+      <p begin="38.0s" xml:id="p5" end="39.0s">누가 내게 뭐라든</p>
+      <p begin="39.0s" xml:id="p6" end="40.0s">남들과는 달라 넌</p>
+      <p begin="40.0s" xml:id="p7" end="42.0s">Maybe you could be the one</p>
+      <p begin="42.0s" xml:id="p8" end="44.0s">날 믿어봐 한 번</p>
+      <p begin="44.0s" xml:id="p9" end="45.0s">I’m not looking for just fun</p>
+      <p begin="45.0s" xml:id="p10" end="46.0s">Maybe I could be the one</p>
+      <p begin="46.0s" xml:id="p11" end="48.0s">Oh baby</p>
+      <p begin="48.0s" xml:id="p12" end="51.0s">예민하대 나 lately</p>
+      <p begin="51.0s" xml:id="p13" end="54.0s">너 없이는 매일 매일이 yeah</p>
+      <p begin="54.0s" xml:id="p14" end="56.0s">재미없어 어쩌지</p>
+      <p begin="56.0s" xml:id="p15" end="58.0s">I just want you</p>
+      <p begin="58.0s" xml:id="p16" end="59.0s">Call my phone right now</p>
+      <p begin="59.0s" xml:id="p17" end="61.0s">I just wanna hear you’re mine</p>
+      <p begin="61.0s" xml:id="p18" end="66.0s">'Cause I know what you like boy</p>
+      <p begin="66.0s" xml:id="p19" end="71.0s">You’re my chemical hype boy</p>
+      <p begin="71.0s" xml:id="p20" end="73.0s">내 지난 날들은</p>
+      <p begin="73.0s" xml:id="p21" end="76.0s">눈 뜨면 잊는 꿈</p>
+      <p begin="76.0s" xml:id="p22" end="78.0s">Hype boy 너만 원해</p>
+      <p begin="78.0s" xml:id="p23" end="80.0s">Hype boy 내가 전해</p>
+      <p begin="80.0s" xml:id="p24" end="82.0s">And we can go high</p>
+      <p begin="82.0s" xml:id="p25" end="85.0s">말해봐 yeah 느껴봐 mm mm</p>
+      <p begin="85.0s" xml:id="p26" end="87.0s">Take him to the sky</p>
+      <p begin="87.0s" xml:id="p27" end="90.0s">You know I hype you boy</p>
+      <p begin="90.0s" xml:id="p28" end="92.0s">눈을 감아</p>
+      <p begin="92.0s" xml:id="p29" end="94.0s">말해봐 yeah 느껴봐 mm mm</p>
+      <p begin="94.0s" xml:id="p30" end="97.0s">Take him to the sky</p>
+      <p begin="97.0s" xml:id="p31" end="103.0s">You know I hype you boy</p>
+      <p begin="103.0s" xml:id="p32" end="105.0s">잠에 들려고 잠에 들려 해도</p>
+      <p begin="105.0s" xml:id="p33" end="108.0s">네 생각에 또 새벽 세 시 uh-oh</p>
+      <p begin="108.0s" xml:id="p34" end="110.0s">알려줄 거야<br />they can’t have you no more</p>
+      <p begin="110.0s" xml:id="p35" end="111.0s">봐봐 여기</p>
+      <p begin="111.0s" xml:id="p36" end="114.0s">내 이름 써있다고</p>
+      <p begin="114.0s" xml:id="p37" end="116.0s">누가 내게 뭐라든</p>
+      <p begin="116.0s" xml:id="p38" end="117.0s">남들과는 달라 넌</p>
+      <p begin="117.0s" xml:id="p39" end="119.0s">Maybe you could be the one</p>
+      <p begin="119.0s" xml:id="p40" end="120.0s">날 믿어봐 한 번</p>
+      <p begin="120.0s" xml:id="p41" end="122.0s">I’m not looking for just fun</p>
+      <p begin="122.0s" xml:id="p42" end="123.0s">Maybe I could be the one</p>
+      <p begin="123.0s" xml:id="p43" end="125.0s">Oh baby</p>
+      <p begin="125.0s" xml:id="p44" end="128.0s">예민하대 나 lately</p>
+      <p begin="128.0s" xml:id="p45" end="131.0s">너 없이는 매일 매일이 yeah</p>
+      <p begin="131.0s" xml:id="p46" end="133.0s">재미없어 어쩌지</p>
+      <p begin="133.0s" xml:id="p47" end="135.0s">I just want you</p>
+      <p begin="135.0s" xml:id="p48" end="137.0s">Call my phone right now</p>
+      <p begin="137.0s" xml:id="p49" end="139.0s">I just wanna hear you’re mine</p>
+      <p begin="139.0s" xml:id="p50" end="144.0s">'Cause I know what you like boy</p>
+      <p begin="144.0s" xml:id="p51" end="149.0s">You’re my chemical hype boy</p>
+      <p begin="149.0s" xml:id="p52" end="151.0s">내 지난날들은</p>
+      <p begin="151.0s" xml:id="p53" end="154.0s">눈 뜨면 잊는 꿈</p>
+      <p begin="154.0s" xml:id="p54" end="156.0s">Hype boy 너만 원해</p>
+      <p begin="156.0s" xml:id="p55" end="158.0s">Hype boy 내가 전해</p>
+      <p begin="158.0s" xml:id="p56" end="160.0s">And we can go high</p>
+      <p begin="160.0s" xml:id="p57" end="161.0s">말해봐 yeah</p>
+      <p begin="161.0s" xml:id="p58" end="162.0s">느껴봐 mm mm</p>
+      <p begin="162.0s" xml:id="p59" end="165.0s">Take him to the sky</p>
+      <p begin="165.0s" xml:id="p60" end="167.0s">You know I hype you boy</p>
+      <p begin="167.0s" xml:id="p61" end="170.0s">눈을 감아</p>
+      <p begin="170.0s" xml:id="p62" end="171.0s">말해봐 yeah</p>
+      <p begin="171.0s" xml:id="p63" end="172.0s">느껴봐 mm mm</p>
+      <p begin="172.0s" xml:id="p64" end="175.0s">Take him to the sky</p>
+      <p begin="175.0s" xml:id="p65" end="176.0s">You know I hype you boy</p>
+    </div>
+  </body>
+</tt>

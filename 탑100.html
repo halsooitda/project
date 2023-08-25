@@ -1,0 +1,2151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Top 100</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="./탑100.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="./main.css" />
+        <link rel="stylesheet" href="./음악.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./chatbot.css" />
+        <script src="./chatbot.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="./link.js"></script>
+    </head>
+
+    <body>
+        <script>
+            clickAnswer();
+        </script>
+        <span class="material-symbols-outlined" id="up"
+            ><a href="" id="up">expand_circle_up</a></span
+        >
+        <div class="nav">
+            <div class="box"></div>
+            <a href="./main.html" class="logo">EZEN MUSIC</a><br />
+            <div class="login">
+                <span class="material-symbols-outlined">account_circle</span>
+                <a href="./login.html">로그인</a>
+            </div>
+            <br />
+            <button class="member" onclick="membership()">멤버십</button><br />
+            <input type="text" class="search" placeholder="MUSIC 검색" />
+            <ul class="menu-box">
+                <li>
+                    <span class="material-symbols-outlined">home</span>
+                    <a href="./main.html" class="menu">HOME</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined home">trophy</span>
+                    <a href="./탑100.html" class="menu home">TOP100</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">album</span>
+                    <a href="./DJ.html" class="menu">DJ추천</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">library_music</span>
+                    <a href="" class="menu">최신앨범</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">newsmode</span>
+                    <a href="./매거진.html" class="menu">매거진</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">favorite</span>
+                    <a href="" class="menu">보관함</a>
+                </li>
+            </ul>
+            <ul class="menu-box2">
+                <li class="qna"><a href="./문의사항.html">문의게시판</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">공지사항</a></li>
+            </ul>
+        </div>
+        <div class="top100">
+            <header class="head">
+                <h1>오늘의 TOP 100</h1>
+                <p>8월 23일 오전 7시 업데이트</p>
+                <div class="btnList">
+                    <button type="button" class="btn__1">
+                        전체 재생<span class="material-symbols-outlined"
+                            >play_arrow</span
+                        >
+                    </button>
+                    <button type="button" class="btn__2">
+                        랜덤 재생<span class="material-symbols-outlined"
+                            >shuffle</span
+                        >
+                    </button>
+                </div>
+            </header>
+            <section>
+                <!-- <hr /> -->
+                <div class="songList">
+                    <div class="song" id="song1">
+                        <div class="image-container">
+                            <img src="./images/뉴진스.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">1</div>
+                        <p class="songName">ETA</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 2nd EP 'Get Up'</p>
+                        <p class="time">2:31</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../project/player/player_NewJeans_ETA_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+                    <div class="song" id="song2">
+                        <div class="image-container">
+                            <img src="./images/뉴진스.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">2</div>
+                        <p class="songName">Super Shy</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 'Super Shy' - Single</p>
+                        <p class="time">2:34</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../project/player/NewJeans_Super Shy_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song3">
+                        <div class="image-container">
+                            <img src="./images/seven.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">3</div>
+                        <p class="songName">Seven (feat. Latto)</p>
+                        <p class="singer">정국, Latto</p>
+                        <p class="album">Seven - Single</p>
+                        <p class="time">3:05</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../project/player/Jung Kook_Seven_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song4">
+                        <div class="image-container">
+                            <img src="./images/뉴진스.jpg" alt="" />
+
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">4</div>
+                        <p class="songName">New Jeans</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 'Super Shy' - Single</p>
+                        <p class="time">1:48</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../project/player/NewJeans_Super Shy_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song5">
+                        <div class="image-container">
+                            <img src="./images/Fast Forward.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">5</div>
+                        <p class="songName">Fast Forward</p>
+                        <p class="singer">전소미</p>
+                        <p class="album">GAME PLAN - EP</p>
+                        <p class="time">2:40</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song6">
+                        <div class="image-container">
+                            <img src="./images/뉴진스.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">6</div>
+                        <p class="songName">Cool With You</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 2nd EP 'Get Up'</p>
+                        <p class="time">2:27</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song7">
+                        <div class="image-container">
+                            <img src="./images/steal the show.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">7</div>
+                        <p class="songName">
+                            Steal The show (From "Elemental")
+                        </p>
+                        <p class="singer">Lauv</p>
+                        <p class="album">
+                            Steal The show (From "Elemental") - Single
+                        </p>
+                        <p class="time">2:40</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song8">
+                        <div class="image-container">
+                            <img src="./images/new jeans.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">8</div>
+                        <p class="songName">Hype Boy</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 1st EP 'New Jeans'</p>
+                        <p class="time">2:59</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../player/NewJeans_Hype Boy_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song9">
+                        <div class="image-container">
+                            <img src="./images/헤어지자 말해요.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">9</div>
+                        <p class="songName">헤어지자 말해요</p>
+                        <p class="singer">박재정</p>
+                        <p class="album">1집 Alone</p>
+                        <p class="time">4:03</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../player/Parc Jae Jung_Let_s Say Goodbye_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song10">
+                        <div class="image-container">
+                            <img src="./images/ive.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">10</div>
+                        <p class="songName">I AM</p>
+                        <p class="singer">아이브</p>
+                        <p class="album">I've IVE</p>
+                        <p class="time">3:03</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../player/IVE_I AM_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song11">
+                        <div class="image-container">
+                            <img src="./images/ditto.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">11</div>
+                        <p class="songName">Ditto</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">Ditto - Single</p>
+                        <p class="time">3:05</p>
+                        <span class="material-symbols-outlined" id="symbol11"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song12">
+                        <div class="image-container">
+                            <img src="./images/뉴진스.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">12</div>
+                        <p class="songName">ASAP</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 2nd EP 'Get Up'</p>
+                        <p class="time">2:14</p>
+                        <span class="material-symbols-outlined" id="symbol12"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song13">
+                        <div class="image-container">
+                            <img src="./images/spicy.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">13</div>
+                        <p class="songName">Spicy</p>
+                        <p class="singer">aespa</p>
+                        <p class="album">MY WORLD - The 3rd Mini Album - EP</p>
+                        <p class="time">3:17</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../player/aespa_Spicy_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song14">
+                        <div class="image-container">
+                            <img src="./images/이브, 프시케.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">14</div>
+                        <p class="songName">
+                            이브, 프시케 그리고 푸른 수염의 아내
+                        </p>
+                        <p class="singer">르세라핌</p>
+                        <p class="album">UNFORGIVEN</p>
+                        <p class="time">3:05</p>
+                        <span class="material-symbols-outlined"
+                            ><a
+                                href=""
+                                onclick="window.open('../player/LE SSERAFIM_이브프시케_.html','player','width=440,height=671px')"
+                                >more_horiz</a
+                            ></span
+                        >
+                    </div>
+
+                    <div class="song" id="song15">
+                        <div class="image-container">
+                            <img src="./images/omg.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">15</div>
+                        <p class="songName">OMG</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 'OMG' - Single</p>
+                        <p class="time">3:32</p>
+                        <span class="material-symbols-outlined" id="symbol15"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song16">
+                        <div class="image-container">
+                            <img src="./images/new jeans.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">16</div>
+                        <p class="songName">Attention</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 1st EP 'New Jeans'</p>
+                        <p class="time">3:00</p>
+                        <span class="material-symbols-outlined" id="symbol16"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song17">
+                        <div class="image-container">
+                            <img src="./images/summer.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">17</div>
+                        <p class="songName">Summer (feat. BE'O)</p>
+                        <p class="singer">폴블랑코</p>
+                        <p class="album">Summer (feat. BE'O) - Single</p>
+                        <p class="time">3:19</p>
+                        <span class="material-symbols-outlined" id="symbol17"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song18">
+                        <div class="image-container">
+                            <img src="./images/퀸카.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">18</div>
+                        <p class="songName">퀸카</p>
+                        <p class="singer">(여자)아이들</p>
+                        <p class="album">I feel - EP</p>
+                        <p class="time">2:41</p>
+                        <span class="material-symbols-outlined" id="symbol18"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song19">
+                        <div class="image-container">
+                            <img src="./images/cake.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">19</div>
+                        <p class="songName">CAKE</p>
+                        <p class="singer">ITZY</p>
+                        <p class="album">KILL MY DOUBT - EP</p>
+                        <p class="time">3:18</p>
+                        <span class="material-symbols-outlined" id="symbol19"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song20">
+                        <div class="image-container">
+                            <img src="./images/뉴진스.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">20</div>
+                        <p class="songName">Get Up</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 2nd EP 'Get Up'</p>
+                        <p class="time">0:36</p>
+                        <span class="material-symbols-outlined" id="symbol20"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song21">
+                        <div class="image-container">
+                            <img src="./images/이브, 프시케.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">21</div>
+                        <p class="songName">UNFORGIVEN</p>
+                        <p class="singer">르세라핌, Nile Rodgers</p>
+                        <p class="album">UNFORGIVEN</p>
+                        <p class="time">3:02</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song22">
+                        <div class="image-container">
+                            <img src="./images/아이돌.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">22</div>
+                        <p class="songName">アイドル</p>
+                        <p class="singer">YOASOBI</p>
+                        <p class="album">アイドル - Single</p>
+                        <p class="time">3:33</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song23">
+                        <div class="image-container">
+                            <img src="./images/better.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">23</div>
+                        <p class="songName">Better Things</p>
+                        <p class="singer">aespa</p>
+                        <p class="album">Better Things - Single</p>
+                        <p class="time">3:23</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song24">
+                        <div class="image-container">
+                            <img src="./images/bubble.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">24</div>
+                        <p class="songName">Bubble</p>
+                        <p class="singer">STAYC</p>
+                        <p class="album">TEENFRESH - EP</p>
+                        <p class="time">2:59</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song25">
+                        <div class="image-container">
+                            <img src="./images/sugarcoat.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">25</div>
+                        <p class="songName">Sugarcoat (NATTY Solo)</p>
+                        <p class="singer">KISS OF LIFE</p>
+                        <p class="album">KISS OF LIFE - EP</p>
+                        <p class="time">2:59</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song26">
+                        <div class="image-container">
+                            <img src="./images/민들레.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">26</div>
+                        <p class="songName">민들레 (single version)</p>
+                        <p class="singer">우효</p>
+                        <p class="album">민들레 - Single</p>
+                        <p class="time">4:12</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song27">
+                        <div class="image-container">
+                            <img src="./images/cruel.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">27</div>
+                        <p class="songName">Cruel Summer</p>
+                        <p class="singer">Taylor Swift</p>
+                        <p class="album">Lover</p>
+                        <p class="time">2:58</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song28">
+                        <div class="image-container">
+                            <img src="./images/istj.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">28</div>
+                        <p class="songName">ISTJ</p>
+                        <p class="singer">NCT DREAM</p>
+                        <p class="album">ISTJ - The 3rd Albujm</p>
+                        <p class="time">3:05</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song29">
+                        <div class="image-container">
+                            <img src="./images/kitsch.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">29</div>
+                        <p class="songName">Kitsch</p>
+                        <p class="singer">아이브</p>
+                        <p class="album">Kitsch - Single</p>
+                        <p class="time">3:15</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song30">
+                        <div class="image-container">
+                            <img src="./images/손오공.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">30</div>
+                        <p class="songName">손오공</p>
+                        <p class="singer">세븐틴</p>
+                        <p class="album">세븐틴 미니 10집 'FML' - EP</p>
+                        <p class="time">3:20</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song31">
+                        <div class="image-container">
+                            <img src="./images/우디.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">31</div>
+                        <p class="songName">
+                            사막에서 꽃을 피우듯(Kor Version)
+                        </p>
+                        <p class="singer">우디</p>
+                        <p class="album">사막에서 꽃을 피우듯 - Single</p>
+                        <p class="time">4:19</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song32">
+                        <div class="image-container">
+                            <img src="./images/love me.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">32</div>
+                        <p class="songName">Love Me Again</p>
+                        <p class="singer">뷔</p>
+                        <p class="album">Layover - Single</p>
+                        <p class="time">3:02</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song33">
+                        <div class="image-container">
+                            <img src="./images/after like.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">33</div>
+                        <p class="songName">After LIKE</p>
+                        <p class="singer">아이브</p>
+                        <p class="album">After LIKE - Single</p>
+                        <p class="time">2:56</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song34">
+                        <div class="image-container">
+                            <img src="./images/new jeans.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">34</div>
+                        <p class="songName">Cookie</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 1st EP 'New Jeans'</p>
+                        <p class="time">3:55</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song35">
+                        <div class="image-container">
+                            <img src="./images/거리에서.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">35</div>
+                        <p class="songName">거리에서 (feat. ASH ISLAND)</p>
+                        <p class="singer">릴러말즈</p>
+                        <p class="album">
+                            거리에서 (feat. ASH ISLAND) - Single
+                        </p>
+                        <p class="time">3:29</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song36">
+                        <div class="image-container">
+                            <img src="./images/love dive.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">36</div>
+                        <p class="songName">LOVE DIVE</p>
+                        <p class="singer">아이브</p>
+                        <p class="album">LOVE DIVE - Single</p>
+                        <p class="time">2:57</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song37">
+                        <div class="image-container">
+                            <img src="./images/istj.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">37</div>
+                        <p class="songName">Yogurt Shake</p>
+                        <p class="singer">NCT DREAM</p>
+                        <p class="album">ISTJ - The 3rd Album</p>
+                        <p class="time">3:17</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song38">
+                        <div class="image-container">
+                            <img src="./images/예뻤어.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">38</div>
+                        <p class="songName">예뻤어</p>
+                        <p class="singer">데이식스</p>
+                        <p class="album">Every Day6 February - Single</p>
+                        <p class="time">4:43</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song39">
+                        <div class="image-container">
+                            <img src="./images/i like her.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">39</div>
+                        <p class="songName">I Don't Think That I Like Her</p>
+                        <p class="singer">Charli Puth</p>
+                        <p class="album">CHARLIE</p>
+                        <p class="time">3:08</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song40">
+                        <div class="image-container">
+                            <img src="./images/주저하는.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">40</div>
+                        <p class="songName">주저하는 연인들을 위해</p>
+                        <p class="singer">잔나비</p>
+                        <p class="album">전설</p>
+                        <p class="time">4:25</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song41">
+                        <div class="image-container">
+                            <img src="./images/bloom.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">41</div>
+                        <p class="songName">In Bloom</p>
+                        <p class="singer">ZEROBASEONE</p>
+                        <p class="album">YOUTH IN THE SHADE - EP</p>
+                        <p class="time">3:00</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song42">
+                        <div class="image-container">
+                            <img src="./images/i want.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">42</div>
+                        <p class="songName">I WANT</p>
+                        <p class="singer">아이브</p>
+                        <p class="album">I WANT - Single</p>
+                        <p class="time">3:00</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song43">
+                        <div class="image-container">
+                            <img src="./images/특.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">43</div>
+                        <p class="songName">특</p>
+                        <p class="singer">Stray Kids</p>
+                        <p class="album">5-STAR</p>
+                        <p class="time">3:15</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song44">
+                        <div class="image-container">
+                            <img src="./images/aeao.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">44</div>
+                        <p class="songName">Aeao</p>
+                        <p class="singer">다이나믹 듀오, DJ Premier</p>
+                        <p class="album">A Giant Step - Single</p>
+                        <p class="time">5:161</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song45">
+                        <div class="image-container">
+                            <img src="./images/anti.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">45</div>
+                        <p class="songName">ANTIFRAGILE</p>
+                        <p class="singer">르세라핌</p>
+                        <p class="album">ANTIFRAGILE - EP</p>
+                        <p class="time">3:04</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song46">
+                        <div class="image-container">
+                            <img src="./images/좋은밤.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">46</div>
+                        <p class="songName">좋은 밤 좋은 꿈</p>
+                        <p class="singer">Nerd Connection</p>
+                        <p class="album">좋은 밤 좋은 꿈 - Single</p>
+                        <p class="time">4:25</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song47">
+                        <div class="image-container">
+                            <img src="./images/지평선.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">47</div>
+                        <p class="songName">사건의 지평선</p>
+                        <p class="singer">윤하</p>
+                        <p class="album">
+                            YOUNHA 6th Album Repackage 'END THEORY : Final
+                            Edition'
+                        </p>
+                        <p class="time">5:00</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song48">
+                        <div class="image-container">
+                            <img src="./images/한 페이지.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">48</div>
+                        <p class="songName">한 페이지가 될 수 있게</p>
+                        <p class="singer">데이식스</p>
+                        <p class="album">The Book of Us: Gravity - EP</p>
+                        <p class="time">3:25</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song49">
+                        <div class="image-container">
+                            <img src="./images/new jeans.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">49</div>
+                        <p class="songName">Hurt</p>
+                        <p class="singer">뉴진스</p>
+                        <p class="album">NewJeans 1st EP 'New Jeans'</p>
+                        <p class="time">2:57</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song50">
+                        <div class="image-container">
+                            <img src="./images/spicy.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">50</div>
+                        <p class="songName">Thirsty</p>
+                        <p class="singer">aespa</p>
+                        <p class="album">MY WORLD - The 3rd Mini Album - EP</p>
+                        <p class="time">3:13</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song51">
+                        <div class="image-container">
+                            <img src="./images/boat.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">51</div>
+                        <p class="songName">Boat</p>
+                        <p class="singer">죠지</p>
+                        <p class="album">Boat - Single</p>
+                        <p class="time">3:11</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song52">
+                        <div class="image-container">
+                            <img src="./images/첫사랑.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">52</div>
+                        <p class="songName">첫사랑</p>
+                        <p class="singer">백아</p>
+                        <p class="album">첫사랑 - Single</p>
+                        <p class="time">3:08</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song53">
+                        <div class="image-container">
+                            <img src="./images/뱀파.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">53</div>
+                        <p class="songName">vampire</p>
+                        <p class="singer">Olivia Rodrigo</p>
+                        <p class="album">GUTS</p>
+                        <p class="time">3:39</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song54">
+                        <div class="image-container">
+                            <img src="./images/hero.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">54</div>
+                        <p class="songName">손이 참 곱던 그대</p>
+                        <p class="singer">임영웅</p>
+                        <p class="album">IM HERO</p>
+                        <p class="time">3:15</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song55">
+                        <div class="image-container">
+                            <img src="./images/blue.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">55</div>
+                        <p class="songName">Bye Bye My Blue</p>
+                        <p class="singer">백예린</p>
+                        <p class="album">Bye Bye My Blue - Single</p>
+                        <p class="time">3:23</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song56">
+                        <div class="image-container">
+                            <img src="./images/bear.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">56</div>
+                        <p class="songName">Teddy Bear</p>
+                        <p class="singer">STAYC</p>
+                        <p class="album">Teddy Bear - Single</p>
+                        <p class="time">3:09</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song57">
+                        <div class="image-container">
+                            <img src="./images/mind.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">57</div>
+                        <p class="songName">Dangerously</p>
+                        <p class="singer">Charlie Puth</p>
+                        <p class="album">Nine Track Mind</p>
+                        <p class="time">3:19</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song58">
+                        <div class="image-container">
+                            <img src="./images/dream.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">58</div>
+                        <p class="songName">Party O'Clock</p>
+                        <p class="singer">NMIXX</p>
+                        <p class="album">A Midsummer NMIXX's Dream - EP</p>
+                        <p class="time">3:03</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song59">
+                        <div class="image-container">
+                            <img src="./images/kiss.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">59</div>
+                        <p class="songName">쉿</p>
+                        <p class="singer">KISS OF LIFE</p>
+                        <p class="album">KISS OF LIFE - EP</p>
+                        <p class="time">3:02</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song60">
+                        <div class="image-container">
+                            <img src="./images/zone.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">60</div>
+                        <p class="songName">Killin' Me Good</p>
+                        <p class="singer">지효</p>
+                        <p class="album">ZONE</p>
+                        <p class="time">3:05</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song61">
+                        <div class="image-container">
+                            <img src="./images/baby.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">61</div>
+                        <p class="songName">EVERYTHING</p>
+                        <p class="singer">검정치마</p>
+                        <p class="album">TEAM BABY</p>
+                        <p class="time">4:53</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song62">
+                        <div class="image-container">
+                            <img src="./images/underwater.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">62</div>
+                        <p class="songName">Underwater</p>
+                        <p class="singer">권은비</p>
+                        <p class="album">Lethality - EP</p>
+                        <p class="time">2:50</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song63">
+                        <div class="image-container">
+                            <img src="./images/aimyon.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">63</div>
+                        <p class="songName">Ai Wo Tsutaetaidatoka</p>
+                        <p class="singer">aimyon</p>
+                        <p class="album">Ai Wo Tsutaetaidatoka - EP</p>
+                        <p class="time">3:55</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song64">
+                        <div class="image-container">
+                            <img src="./images/barbie.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">64</div>
+                        <p class="songName">Dance The Night</p>
+                        <p class="singer">Dua Lipa</p>
+                        <p class="album">Barbie The Album</p>
+                        <p class="time">2:56</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song65">
+                        <div class="image-container">
+                            <img src="./images/베텔.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">65</div>
+                        <p class="songName">ベテルギウス</p>
+                        <p class="singer">Yuuri</p>
+                        <p class="album">ベテルギウス - Single</p>
+                        <p class="time">3:50</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song66">
+                        <div class="image-container">
+                            <img src="./images/pink.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">66</div>
+                        <p class="songName">Shut Down</p>
+                        <p class="singer">BLACKPINK</p>
+                        <p class="album">BORN PINK</p>
+                        <p class="time">2:55</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song67">
+                        <div class="image-container">
+                            <img src="./images/선물.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">67</div>
+                        <p class="songName">Antifreeze</p>
+                        <p class="singer">백예린</p>
+                        <p class="album">선물</p>
+                        <p class="time">4:05</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song68">
+                        <div class="image-container">
+                            <img src="./images/coaster.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">68</div>
+                        <p class="songName">Roller Coaster</p>
+                        <p class="singer">NMIXX</p>
+                        <p class="album">Roller Coaster - Single</p>
+                        <p class="time">2:59</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song69">
+                        <div class="image-container">
+                            <img src="./images/broken.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">69</div>
+                        <p class="songName">Broken Melodies</p>
+                        <p class="singer">NCT DREAM</p>
+                        <p class="album">Broken Melodies - Single</p>
+                        <p class="time">3:46</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song70">
+                        <div class="image-container">
+                            <img src="./images/lovey.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">70</div>
+                        <p class="songName">Vancouver</p>
+                        <p class="singer">BIG Naughty</p>
+                        <p class="album">Lovey Dovey - Single</p>
+                        <p class="time">3:36</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song71">
+                        <div class="image-container">
+                            <img src="./images/flower.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">71</div>
+                        <p class="songName">FLOWER</p>
+                        <p class="singer">지수</p>
+                        <p class="album">ME - Single</p>
+                        <p class="time">2:53</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song72">
+                        <div class="image-container">
+                            <img src="./images/letter.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">72</div>
+                        <p class="songName">Square (2017)</p>
+                        <p class="singer">백예린</p>
+                        <p class="album">Every letter I sent you.</p>
+                        <p class="time">4:21</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song73">
+                        <div class="image-container">
+                            <img src="./images/die.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">73</div>
+                        <p class="songName">겁도 없이 (feat. BIG Naughty)</p>
+                        <p class="singer">B.I</p>
+                        <p class="album">TO DIE FOR</p>
+                        <p class="time">2:55</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song74">
+                        <div class="image-container">
+                            <img src="./images/still.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">74</div>
+                        <p class="songName">Still With You</p>
+                        <p class="singer">정국</p>
+                        <p class="album">Still With You - Single</p>
+                        <p class="time">3:59</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song75">
+                        <div class="image-container">
+                            <img src="./images/exo.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">75</div>
+                        <p class="songName">Cream Soda</p>
+                        <p class="singer">EXO</p>
+                        <p class="album">EXIST - The 7th Album</p>
+                        <p class="time">3:05</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song76">
+                        <div class="image-container">
+                            <img src="./images/rose.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">76</div>
+                        <p class="songName">작별인사 (feat. 폴블랑코)</p>
+                        <p class="singer">ASH ISLAND</p>
+                        <p class="album">ROSE</p>
+                        <p class="time">2:45</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song77">
+                        <div class="image-container">
+                            <img src="./images/kill.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">77</div>
+                        <p class="songName">Kill Bill</p>
+                        <p class="singer">SZA</p>
+                        <p class="album">SOS</p>
+                        <p class="time">2:33</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song78">
+                        <div class="image-container">
+                            <img src="./images/hi.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">78</div>
+                        <p class="songName">건물 사이에 피어난 장미</p>
+                        <p class="singer">하이키</p>
+                        <p class="album">
+                            H1-KEY 1st Mini Album [Rose Blossom]
+                        </p>
+                        <p class="time">3:15</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song79">
+                        <div class="image-container">
+                            <img src="./images/level.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">79</div>
+                        <p class="songName">Next Level</p>
+                        <p class="singer">aespa</p>
+                        <p class="album">Next Level - Single</p>
+                        <p class="time">3:41</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song80">
+                        <div class="image-container">
+                            <img src="./images/낭만.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">80</div>
+                        <p class="songName">낭만젊음사랑</p>
+                        <p class="singer">이세계</p>
+                        <p class="album">
+                            날 위해 울어줘/낭만젊음사랑 - Single
+                        </p>
+                        <p class="time">4:40</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song81">
+                        <div class="image-container">
+                            <img src="./images/expergo.png" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">81</div>
+                        <p class="songName">Love Me Like This</p>
+                        <p class="singer">NMIXX</p>
+                        <p class="album">expergo - EP</p>
+                        <p class="time">3:08</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song82">
+                        <div class="image-container">
+                            <img src="./images/tomboy.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">82</div>
+                        <p class="songName">TOMBOY</p>
+                        <p class="singer">(여자)아이들</p>
+                        <p class="album">I NEVER DIE</p>
+                        <p class="time">2:54</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song83">
+                        <div class="image-container">
+                            <img src="./images/마지막처럼.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">83</div>
+                        <p class="songName">마지막처럼</p>
+                        <p class="singer">BLACKPINK</p>
+                        <p class="album">마지막처럼 - Single</p>
+                        <p class="time">3:35</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song84">
+                        <div class="image-container">
+                            <img src="./images/lemon.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">84</div>
+                        <p class="songName">Lemon</p>
+                        <p class="singer">요네즈 켄시</p>
+                        <p class="album">Lemon - Single</p>
+                        <p class="time">4:16</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song85">
+                        <div class="image-container">
+                            <img src="./images/night dancer.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">85</div>
+                        <p class="songName">NIGHT DANCER</p>
+                        <p class="singer">imase</p>
+                        <p class="album">NIGHT DANCER - Single</p>
+                        <p class="time">3:30</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song86">
+                        <div class="image-container">
+                            <img src="./images/그라데이션.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">86</div>
+                        <p class="songName">그라데이션</p>
+                        <p class="singer">10cm</p>
+                        <p class="album">5.3 - Single</p>
+                        <p class="time">3:21</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song87">
+                        <div class="image-container">
+                            <img src="./images/eleven.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">87</div>
+                        <p class="songName">ELEVEN</p>
+                        <p class="singer">아이브</p>
+                        <p class="album">ELEVEN - Single</p>
+                        <p class="time">2:58</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song88">
+                        <div class="image-container">
+                            <img src="./images/도깨비불.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">88</div>
+                        <p class="songName">도깨비불</p>
+                        <p class="singer">aespa</p>
+                        <p class="album">Girls - The 2nd Mini Album</p>
+                        <p class="time">3:15</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song89">
+                        <div class="image-container">
+                            <img src="./images/파이팅.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">89</div>
+                        <p class="songName">파이팅 해야지 (feat. 이영지)</p>
+                        <p class="singer">부석순</p>
+                        <p class="album">
+                            BSS 1st Single Album 'SECOND WIND' - Single
+                        </p>
+                        <p class="time">3:24</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song90">
+                        <div class="image-container">
+                            <img src="./images/bite.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">90</div>
+                        <p class="songName">Bite Me</p>
+                        <p class="singer">엔하이픈</p>
+                        <p class="album">DARK BLOOD - EP</p>
+                        <p class="time">2:37</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                    <div class="song" id="song91">
+                        <div class="image-container">
+                            <img src="./images/stay.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">91</div>
+                        <p class="songName">STAY</p>
+                        <p class="singer">The Kid LAROI, Justin Bieber</p>
+                        <p class="album">STAY - Single1</p>
+                        <p class="time">2:21</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song92">
+                        <div class="image-container">
+                            <img src="./images/nxde.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">92</div>
+                        <p class="songName">Nxde</p>
+                        <p class="singer">(여자)아이들</p>
+                        <p class="album">I love - EP</p>
+                        <p class="time">2:58</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song93">
+                        <div class="image-container">
+                            <img src="./images/교향곡.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">93</div>
+                        <p class="songName">낭만교향곡 (feat. 창모 & 박재범)</p>
+                        <p class="singer">BIG Naughty</p>
+                        <p class="album">낭만</p>
+                        <p class="time">4:00</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song94">
+                        <div class="image-container">
+                            <img src="./images/여름.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">94</div>
+                        <p class="songName">여름이 들려</p>
+                        <p class="singer">오마이걸</p>
+                        <p class="album">Golden Hourglass - EP</p>
+                        <p class="time">3:20</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song95">
+                        <div class="image-container">
+                            <img src="./images/candy.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">95</div>
+                        <p class="songName">Candy</p>
+                        <p class="singer">NCT DREAM</p>
+                        <p class="album">
+                            Candy - Winter Special Mini Album - EP
+                        </p>
+                        <p class="time">3:37</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song96">
+                        <div class="image-container">
+                            <img src="./images/cupid.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">96</div>
+                        <p class="songName">Cupid</p>
+                        <p class="singer">피프티 피프티</p>
+                        <p class="album">The Beginning: Cupid - Single</p>
+                        <p class="time">2:54</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song97">
+                        <div class="image-container">
+                            <img src="./images/여행.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">97</div>
+                        <p class="songName">
+                            Travel Again (feat. Cautious Clay)
+                        </p>
+                        <p class="singer">빈지노</p>
+                        <p class="album">NOWITZKI</p>
+                        <p class="time">4:17</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song98">
+                        <div class="image-container">
+                            <img src="./images/work.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">98</div>
+                        <p class="songName">
+                            That’s Not How This Works (feat. Dan + Shay)
+                        </p>
+                        <p class="singer">Charlie Puth</p>
+                        <p class="album">
+                            That’s Not How This Works (feat. Dan + Shay) -
+                            Single
+                        </p>
+                        <p class="time">2:45</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song99">
+                        <div class="image-container">
+                            <img src="./images/u.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">99</div>
+                        <p class="songName">Love U Like That</p>
+                        <p class="singer">Lavu</p>
+                        <p class="album">Love U Like Taht - Single</p>
+                        <p class="time">3:31</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+
+                    <div class="song" id="song100">
+                        <div class="image-container">
+                            <img src="./images/거리에서.jpg" alt="" />
+                            <span
+                                class="material-symbols-outlined"
+                                id="playIcon"
+                                >play_arrow</span
+                            >
+                        </div>
+                        <div class="rank">100</div>
+                        <p class="songName">거리에서</p>
+                        <p class="singer">성시경</p>
+                        <p class="album">The Ballads</p>
+                        <p class="time">4:39</p>
+                        <span class="material-symbols-outlined"
+                            ><a href="">more_horiz</a></span
+                        >
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="wrap__music">
+            <div class="music__inner">
+                <div class="music__top">
+                    <!-- // music__song -->
+                    <div class="music__progress">
+                        <div class="bar">
+                            <audio id="main-audio" src=""></audio>
+                        </div>
+                        <div class="timer">
+                            <span class="current">0:00</span>
+                            <span class="duration">0:00</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- // music__top -->
+                <div class="mainMusic">
+                    <div class="music__img">
+                        <img src="./images/뉴진스.jpg" alt="" />
+                    </div>
+                    <!-- // music__img -->
+                    <div class="music__song">
+                        <p class="name">ETA</p>
+                        <p class="artist">뉴진스</p>
+                    </div>
+                    <!-- // music__progress -->
+                    <div class="music__control">
+                        <i
+                            id="control-prev"
+                            class="material-icons"
+                            title="이전곡"
+                            >skip_previous</i
+                        >
+                        <div class="play-pause">
+                            <i
+                                id="control-play"
+                                class="material-icons"
+                                title="재생"
+                                >play_arrow</i
+                            >
+                            <!-- <i class="material-icons">pause</i> -->
+                        </div>
+                        <i
+                            id="control-next"
+                            class="material-icons"
+                            title="다음곡"
+                            >skip_next</i
+                        >
+                        <div>
+                            <i
+                                id="control-repeat"
+                                class="material-icons"
+                                title="전체 반복"
+                                >repeat</i
+                            >
+                        </div>
+                        <i
+                            id="control-list"
+                            class="material-icons"
+                            title="재생목록"
+                            >queue_music</i
+                        >
+                    </div>
+                    <!-- // music__control -->
+                    <div class="music__list">
+                        <div class="title">
+                            <div>
+                                <i class="material-icons queue">queue_music</i>
+                                <span>Music List</span>
+                            </div>
+                            <i class="material-icons close">close</i>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <!-- Javascript -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- // music__list -->
+            </div>
+        </div>
+        <script src="./탑100음악목록.js"></script>
+        <script src="./음악.js"></script>
+        <script src="./탑100.js"></script>
+    </body>
+</html>

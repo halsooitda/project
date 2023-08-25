@@ -1,0 +1,95 @@
+/* reset */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+ul {
+    /* list-style: none; */
+}
+.sImgBox a {
+    text-decoration: none;
+    color: inherit; /* 부모 요소를 상속 한다는 의미 */
+}
+/* slide */
+.slide {
+    position: relative;
+    width: 1470px;
+    height: 330px;
+    min-width: 1240px;
+}
+/* 사진 영역 */
+.sImgBox a img{
+    position: absolute;
+    width: 1470px;
+    height: 330px;
+    left: 225px;
+}
+.sImg {
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+}
+.sImgBox {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+.sImgBox a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+/* pager btn */
+.sPager {
+    /* margin-top: 50px; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    translate: -50%;
+}
+.sPager ul {
+    display: flex;
+    justify-content: center;
+}
+.sPager li {
+    width: 30px;
+    height: 10px;
+    margin: 0 20px;
+    background-color: #cacaca;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+.sPager .active {
+    background-color: rgb(255, 92, 92);
+}
+/* 좌우 버튼 */
+.sPrev,
+.sNext {
+    position: absolute;
+    top: 130px;
+    width: 30px;
+    height: 30px;
+    border-top: 6px solid #ffffff;
+    border-left: 6px solid #ffffff;
+    cursor: pointer;
+}
+.sPrev {
+    left: 100px;
+    transform: rotate(-45deg);
+}
+.sNext {
+    right: 100px;
+    transform: rotate(135deg);
+}
+.sPrev span,
+.sNext span {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
